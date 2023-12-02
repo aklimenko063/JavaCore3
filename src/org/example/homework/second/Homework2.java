@@ -53,10 +53,10 @@ public class Homework2 {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println("Исходный массив: " + Arrays.toString(numbers));
 
-        for (int i = 0; i < numbers.length / 2; i++) {
-            int tmp = numbers[i];
-            numbers[i] = numbers[numbers.length - i - 1];
-            numbers[numbers.length - i - 1] = tmp;
+        for (int index= 0; index < numbers.length / 2; index++) {
+            int tempVar = numbers[index];
+            numbers[index] = numbers[numbers.length - index - 1];
+            numbers[numbers.length - index - 1] = tempVar;
         }
         System.out.println("Перевернутый массив: " + Arrays.toString(numbers));
         System.out.print("\n");
