@@ -38,7 +38,7 @@ public class Homework2 {
 
         for (int index = 0; index < arrayOfNumbers.length; index++) {
             leftUpToRightDownSum += arrayOfNumbers[index][index];
-            leftDownToRightUpSum += arrayOfNumbers[index][arrayOfNumbers.length - 1 - index];
+            leftDownToRightUpSum += arrayOfNumbers[arrayOfNumbers.length - 1 - index][index];
         }
         System.out.println("Сумма чисел в диагонали leftUpToRightDownSum равна: " + leftUpToRightDownSum);
         System.out.println("Сумма чисел в диагонали leftDownToRightUpSum равна: " + leftDownToRightUpSum);
