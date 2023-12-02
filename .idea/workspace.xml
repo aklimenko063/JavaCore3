@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="01.12.23">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Office.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Secretary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson4/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson4/Lesson4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/Homework2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701255695595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="01.12.23">
+      <option name="closed" value="true" />
+      <created>1701441200711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701441200711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -35,22 +35,13 @@ public class Homework2 {
         int leftUpToRightDownSum = 0; //1509
         //С левого нижнего угла к верхнему правому
         int leftDownToRightUpSum = 0; //1053
-        int a = 0;
-        int b = arrayOfNumbers.length - 1;
 
-        for (int x = 0 ; x < arrayOfNumbers.length; x++) {
-            for (int y = 0 ; y < arrayOfNumbers.length; y++) {
-                if (x == y) {
-                    leftUpToRightDownSum += arrayOfNumbers[x][y];
-                }
-                if (x == a && y == b) {
-                    leftDownToRightUpSum += arrayOfNumbers[a][b];
-                    b--;
-                }
-            }
-            a++;
+        for (int index = 0; index < arrayOfNumbers.length; index++) {
+            leftUpToRightDownSum += arrayOfNumbers[index][index];
+            leftDownToRightUpSum += arrayOfNumbers[index][arrayOfNumbers.length - 1 - index];
         }
-        System.out.println("Сумма диагоналей равна: " + (leftUpToRightDownSum + leftDownToRightUpSum));
+        System.out.println("Сумма чисел в диагонали leftUpToRightDownSum равна: " + leftUpToRightDownSum);
+        System.out.println("Сумма чисел в диагонали leftDownToRightUpSum равна: " + leftDownToRightUpSum);
         System.out.print("\n");
     }
 
