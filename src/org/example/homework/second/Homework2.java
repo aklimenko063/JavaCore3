@@ -70,7 +70,7 @@ public class Homework2 {
         int number = random.nextInt(1000);
         //Написать код, генерирующий случайные числа до тех пор, пока не сгенерируется 999.
         //Вывести номер попытки, с которой получилось получить случайным образом число 999.
-        int attempt = 0;
+        int attempt = 1;
         while (number != 999) {
             number = random.nextInt(1000);
             attempt++;
