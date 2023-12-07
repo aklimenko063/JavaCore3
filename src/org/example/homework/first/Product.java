@@ -1,4 +1,4 @@
-package org.example.homework;
+package org.example.homework.first;
 
 public enum Product {
     SAUSAGE(800), HAM(350), NECK(500);

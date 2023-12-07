@@ -1,7 +1,7 @@
-package org.example.homework;
+package org.example.homework.first;
 
-import static org.example.homework.Product.*;
-import static org.example.homework.TaxRates.*;
+import static org.example.homework.first.Product.*;
+import static org.example.homework.first.TaxRates.*;
 
 public class Homework1 {
     public static void main(String[] args) {

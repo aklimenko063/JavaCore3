@@ -1,4 +1,4 @@
-package org.example.homework;
+package org.example.homework.first;
 
 public enum TaxRates {
     TAX_BEFORE_ONE_MILLION(0.08, 1_000_000),
