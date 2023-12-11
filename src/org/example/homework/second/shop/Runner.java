@@ -8,21 +8,19 @@ public class Runner {
         Item pen = new Item("Ручка", 10);
 
         Worker vasiliy = new Worker("Василий", 30, "Муж");
-        vasiliy.items = new Item[2];
-        vasiliy.items[0] = hammer;
-        vasiliy.items[1] = screwdriver;
+        vasiliy.setItems(new Item[]{hammer, screwdriver});
 
         Worker maryana = new Worker("Марьяна", 25, "Жен");
-        maryana.items = new Item[2];
-        maryana.items[0] = notebook;
-        maryana.items[1] = pen;
+        maryana.setItems(new Item[]{notebook, pen});
 
-        Worker[] workers = new Worker[2];
-        workers[0] = vasiliy;
-        workers[1] = maryana;
+        Worker[] workers = new Worker[]{vasiliy, maryana};
         Shop shop = new Shop(workers);
 
         shop.printWorkers();
-        shop.employeeBoasting();
+        for (Worker worker : workers) {
+            for (Item item : worker.getItems()) {
+                worker.boasting(item);
+            }
+        }
     }
 }

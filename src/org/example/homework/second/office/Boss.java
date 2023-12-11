@@ -1,8 +1,8 @@
 package org.example.homework.second.office;
 
 public class Boss {
-    String employee = "БОСС";
-    String name;
+    private static final String employee = "БОСС";
+    private String name;
 
     public Boss(String name) {
         this.name = name;
@@ -11,5 +11,9 @@ public class Boss {
     public void speech (String managerName) {
         System.out.printf("%s: - %s, давай быстрее!\n",
                 employee, managerName);
+    }
+
+    public String getName() {
+        return name;
     }
 }

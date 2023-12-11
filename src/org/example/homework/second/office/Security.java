@@ -1,8 +1,8 @@
 package org.example.homework.second.office;
 
 public class Security {
-    String employee = "Охранник";
-    String name;
+    private static final String employee = "Охранник";
+    private String name;
 
     public Security(String name) {
         this.name = name;
@@ -10,5 +10,9 @@ public class Security {
 
     public void speech () {
         System.out.printf("%s: - Сколько можно!!! Дайте мне аванс!\n", employee);
+    }
+
+    public String getName() {
+        return name;
     }
 }

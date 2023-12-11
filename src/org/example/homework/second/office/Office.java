@@ -1,10 +1,10 @@
 package org.example.homework.second.office;
 
 public class Office {
-    Boss boss;
-    Manager manager;
-    Security security;
-    Secretary secretary;
+    private Boss boss;
+    private Manager manager;
+    private Security security;
+    private Secretary secretary;
 
     public Office(Boss boss, Manager manager, Security security, Secretary secretary) {
         this.boss = boss;
@@ -14,9 +14,9 @@ public class Office {
     }
 
     public void runWorkDay() {
-        boss.speech(manager.name);
+        boss.speech(manager.getName());
         manager.speech();
         security.speech();
-        secretary.speech(boss.name, manager.name, security.name);
+        secretary.speech(boss.getName(), manager.getName(), security.getName());
     }
 }

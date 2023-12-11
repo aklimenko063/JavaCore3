@@ -295,7 +295,7 @@ public class Homework1 {
                 return 408;
             }
             return 404;
-        } else if (product == Product.HAM) {
+        } else if (product == HAM) {
             return 275;
         } else if (product == NECK) {
             if (quantity < 500) {

@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="07.12.23 08:45" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="08.12.23 20:30">
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Birch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/ConiferTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/DeciduousTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Pine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Spruce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Iphone15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/PhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/SamsungGalaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/components/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/components/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/components/OperatingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/Lesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example3/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example3/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Alive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Gorilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/first/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/first/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Secretary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Security.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Worker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,13 +118,65 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lessons.Lesson1" />
+  <component name="RunManager" selected="Application.Homework3">
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.Homework3" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lessons.lesson4.*" />
+          <option name="PATTERN" value="org.example.homework.third.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex4.Runner" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.homework.third.ex4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.homework.third.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex1.Runner" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.homework.third.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.homework.third.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex3.Runner" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.homework.third.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.homework.third.ex5.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex5.Runner" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.homework.third.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson1" />
+        <item itemvalue="Application.Homework3" />
+        <item itemvalue="Application.org.example.homework.third.ex1.Runner" />
+        <item itemvalue="Application.org.example.homework.third.ex5.Runner" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.org.example.homework.third.ex3.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701924243785</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="07.12.23 16:30">
+      <option name="closed" value="true" />
+      <created>1701952286891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701952286891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +317,8 @@
     <MESSAGE value="04.12.23 номер попытки в 3м задании" />
     <MESSAGE value="07.12.23 08:10" />
     <MESSAGE value="07.12.23 08:45" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.12.23 08:45" />
+    <MESSAGE value="07.12.23 16:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.12.23 16:30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
