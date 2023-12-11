@@ -1,16 +1,16 @@
 package org.example.homework.third.ex1;
 
-public abstract class DeciduousTree extends Tree{
-    protected boolean thereAreLeavesNow;
+public abstract class Deciduous extends Tree{
+    protected boolean hasLeaves;
 
-    public DeciduousTree(int age, boolean thereAreLeavesNow) {
+    public Deciduous(int age, boolean hasLeaves) {
         super(age);
-        this.thereAreLeavesNow = thereAreLeavesNow;
+        this.hasLeaves = hasLeaves;
     }
 
     protected void leavesGrow() {
-        if (!thereAreLeavesNow) {
-            thereAreLeavesNow = true;
+        if (!hasLeaves) {
+            hasLeaves = true;
             System.out.println("Дерево цветет. Листья растут.");
         } else {
             System.out.println("Дерево уже расцвело.");
@@ -18,8 +18,8 @@ public abstract class DeciduousTree extends Tree{
     }
 
     protected void leavesFall() {
-        if (thereAreLeavesNow) {
-            thereAreLeavesNow = false;
+        if (hasLeaves) {
+            hasLeaves = false;
             System.out.println("Листья опадают.");
         } else {
             System.out.println("На дереве нет листьев.");

@@ -1,8 +1,8 @@
 package org.example.homework.third.ex1;
 
-public final class Birch extends DeciduousTree {
-    public Birch(int age, boolean thereAreLeavesNow) {
-        super(age, thereAreLeavesNow);
+public final class Birch extends Deciduous {
+    public Birch(int age, boolean hasLeaves) {
+        super(age, hasLeaves);
     }
 
     @Override

@@ -14,6 +14,18 @@ public abstract class Telephone {
         this.modelPhone = modelPhone;
     }
 
+    protected void setMotherboard(Motherboard motherboard) {
+        this.motherboard = motherboard;
+    }
+
+    protected void setOs(OperatingSystem os) {
+        this.os = os;
+    }
+
+    protected void setCamera(Camera camera) {
+        this.camera = camera;
+    }
+
     @Override
     public String toString() {
         return "Телефон: " +
