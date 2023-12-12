@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="11.12.23 16:30">
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="11.12.23 21:30">
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Birch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Birch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex1/ConiferTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Conifer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex1/DeciduousTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Deciduous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Pine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Pine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Spruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Spruce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Iphone15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Iphone15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex2/PhoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/PhoneFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex2/SamsungGalaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/SamsungGalaxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Telephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Telephone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" afterDir="false" />
     </list>
@@ -80,7 +74,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.homework.third.ex1.Runner">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.homework.third.ex5_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.homework.third.ex5_1.Runner">
     <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homework.third.Homework3" />
       <module name="JavaCore3" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.homework.third.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex3.Runner" />
+    <configuration name="org.example.homework.third.ex5_1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex5_1.Runner" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework.third.ex3.*" />
+          <option name="PATTERN" value="org.example.homework.third.ex5_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.homework.third.ex1.Runner" />
+        <item itemvalue="Application.org.example.homework.third.ex5_1.Runner" />
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.org.example.homework.third.ex1.Runner" />
         <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.org.example.homework.third.ex5.Runner" />
-        <item itemvalue="Application.org.example.homework.third.ex3.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702296467859</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="11.12.23 21:30">
+      <option name="closed" value="true" />
+      <created>1702315521701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702315521701</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,8 @@
     <MESSAGE value="07.12.23 08:45" />
     <MESSAGE value="07.12.23 16:30" />
     <MESSAGE value="11.12.23 16:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.12.23 16:30" />
+    <MESSAGE value="11.12.23 21:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.12.23 21:30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
