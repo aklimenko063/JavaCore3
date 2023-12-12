@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="11.12.23 21:30">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5_1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="12.12.23 12:00 Создал новый метод выдачи копий домов в геттере." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +72,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.homework.third.ex5_1.Runner">
+  <component name="RunManager" selected="Application.Homework3">
     <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homework.third.Homework3" />
       <module name="JavaCore3" />
@@ -147,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.org.example.homework.third.ex5_1.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.example.homework.third.ex1.Runner" />
-        <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.org.example.homework.third.ex5.Runner" />
       </list>
     </recent_temporary>
@@ -279,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702315521701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12.12.23 12:00 Создал новый метод выдачи копий домов в геттере.">
+      <option name="closed" value="true" />
+      <created>1702367781013</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702367781013</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +306,8 @@
     <MESSAGE value="07.12.23 16:30" />
     <MESSAGE value="11.12.23 16:30" />
     <MESSAGE value="11.12.23 21:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.12.23 21:30" />
+    <MESSAGE value="12.12.23 12:00 Создал новый метод выдачи копий домов в геттере." />
+    <option name="LAST_COMMIT_MESSAGE" value="12.12.23 12:00 Создал новый метод выдачи копий домов в геттере." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
