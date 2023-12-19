@@ -69,7 +69,7 @@ public class User {
         boolean check = false;
         if (choice.trim().isEmpty()) {
             System.out.println("\nПароль должен содержать хотя бы один символ и не может быть пробелом.");
-            return check = true;
+            check = true;
         }
         return check;
     }
