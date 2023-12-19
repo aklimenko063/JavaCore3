@@ -24,7 +24,7 @@ public class User {
             if (searchingUser == null) {
                 break;
             } else {
-                System.out.println("Имя пользователя не уникально.");
+                System.out.println("\nИмя пользователя не уникально.");
             }
         }
         user.name = choiceName;
@@ -68,7 +68,7 @@ public class User {
     private static boolean checkPassword(String choice) {
         boolean check = false;
         if (choice.trim().isEmpty()) {
-            System.out.println("Пароль должен содержать хотя бы один символ и не может быть пробелом.");
+            System.out.println("\nПароль должен содержать хотя бы один символ и не может быть пробелом.");
             return check = true;
         }
         return check;
@@ -78,16 +78,16 @@ public class User {
         User searchingUser;
         while (true) {
             System.out.println("Введите имя пользователя: ");
-            String choiceName = OneGramChat.scanner.next();
+            String choiceName = OneGramChat.scanner.nextLine();
 
-            if (usersList.getFreeSlotsUserList() != usersList.getUsers().length && choiceName.length() > 0) {
+            if (usersList.getFreeSlotsUserList() != usersList.getUsers().length && !choiceName.isEmpty()) {
                 searchingUser = usersList.searchUser(choiceName);
 
                 if (searchingUser == null) {
-                    throw new UserNameException("Пользователь отсутствует в базе данных.");
+                    throw new UserNameException("\nПолучатель письма отсутствует в базе данных.");
                 }
                 System.out.println("Введите текст сообщения: ");
-                String textMessage = OneGramChat.scanner.next();
+                String textMessage = OneGramChat.scanner.nextLine();
                 Message.sendMessage(this, searchingUser, textMessage);
                 break;
             }
@@ -96,7 +96,7 @@ public class User {
 
     public void printMessage() throws MessageListException {
         if (freeSlotsMessages == messageList.length) {
-            throw new MessageListException("Нет сообщений.");
+            throw new MessageListException("\nНет сообщений.");
         }
         for (Message message : messageList) {
             if (message == null) {

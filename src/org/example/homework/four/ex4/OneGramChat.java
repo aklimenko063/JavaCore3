@@ -22,13 +22,13 @@ public class OneGramChat {
         startChat();
     }
 
-    public void initializeUsersList() {
+    private void initializeUsersList() {
         UsersList usersList = new UsersList();
         usersList.init(maxUsers);
         this.usersList = usersList;
     }
     
-    public void initializeMenu() {
+    private void initializeMenu() {
         mainMenu = new String[]{
                 "[1] - Войти",
                 "[2] - Добавить пользователя",
@@ -39,91 +39,95 @@ public class OneGramChat {
         };
     }
 
-    public void startChat() {
-        System.out.println("OneGramChat запущен.");
-        System.out.println("");
+    private void startChat() {
+        System.out.println("OneGramChat запущен.\n");
 
         while (true) {
-            System.out.println("");
+            System.out.print("\n");
             for (String item : mainMenu) {
                 System.out.println(item);
             }
-            System.out.println("");
-            System.out.println("Выберите нужное действие:");
+            System.out.println("\nВыберите нужное действие:");
 
-            int choice = scanner.nextInt();
+            String choice = scanner.nextLine();
 
-            if (choice == 1) {
+            if (mainMenu[0].equals(choice)) {
                 comeIn();
-            } else if (choice == 2) {
+            } else if (mainMenu[1].equals(choice)) {
                 addUser();
 //                System.out.println("\n".repeat(15));
-            } else if (choice == 3) {
+            } else if (mainMenu[2].equals(choice)) {
                 comeOut();
 //                System.out.println("\n".repeat(15));
-            } else if (choice == 4) {
+            } else if (mainMenu[3].equals(choice)) {
                 try {
                     sendMessage();
                 } catch (AuthorizeException e) {
                     System.out.println(e.getMessage());
                 }
 //                System.out.println("\n".repeat(15));
-            } else if (choice == 5) {
+            } else if (mainMenu[4].equals(choice)) {
                 try {
                     printMessage();
                 } catch (AuthorizeException e) {
                     System.out.println(e.getMessage());
                 }
-            } else if (choice == 6) {
+            } else if (mainMenu[5].equals(choice)) {
                 System.out.println("Программа завершена.");
 //                System.out.println("\n".repeat(15));
                 break;
+            } else {
+                System.out.println("\nНекорректное действие. Повторите ввод.");
             }
         }
     }
 
-    public void comeIn() {
+    private void comeIn() {
         User searchingUser;
         while (true) {
-            System.out.println("Введите имя пользователя: ");
-            String choiceName = scanner.next();
-            if (usersList.getFreeSlotsUserList() != usersList.getUsers().length && choiceName.length() > 0) {
-                searchingUser = usersList.searchUser(choiceName);
-                if (searchingUser != null) {
-                    while (true) {
-                        System.out.println("Введите пароль пользователя: ");
-                        String choicePass = scanner.next();
-                        if (searchingUser.getPassword().equals(choicePass) && choicePass.length() > 0) {
-                            System.out.println("Вы авторизовались в системе.");
-                            authorizedUser = searchingUser;
-                            break;
-                        } else {
-                            System.out.println("Пароль неверный.");
+            if (usersList.getFreeSlotsUserList() != usersList.getUsers().length) {
+                System.out.println("Введите имя пользователя: ");
+                String choiceName = scanner.nextLine();
+                if (!choiceName.isEmpty()) {
+                    searchingUser = usersList.searchUser(choiceName);
+                    if (searchingUser != null) {
+                        while (true) {
+                            System.out.println("Введите пароль пользователя: ");
+                            String choicePass = scanner.nextLine();
+                            if (searchingUser.getPassword().equals(choicePass) && !choicePass.isEmpty()) {
+                                System.out.println("\nВы авторизовались в системе.");
+                                authorizedUser = searchingUser;
+                                break;
+                            } else {
+                                System.out.println("\nПароль неверный.");
+                                break;
+                            }
                         }
+                        break;
+                    } else {
+                        System.out.println("\nПользователь отсутствует в базе данных.");
+                        break;
                     }
-                    break;
-                } else {
-                    System.out.println("Пользователь отсутствует в базе данных.");
                 }
             } else {
-                System.out.println("База данных не заполнена. Пользователей нет.");
+                System.out.println("\nБаза данных не заполнена. Пользователей нет.");
                 break;
             }
         }
     }
 
-    public void comeOut() {
+    private void comeOut() {
         authorizedUser = null;
-        System.out.println("Вы вышли из системы.");
+        System.out.println("\nВы вышли из системы.");
     }
 
-    public void addUser() {
+    private void addUser() {
         User.addUser(usersList);
     }
 
-    public void sendMessage() throws AuthorizeException {
+    private void sendMessage() throws AuthorizeException {
         if (authorizedUser == null) {
-            throw new AuthorizeException("Вы не авторизованы в системе.");
+            throw new AuthorizeException("\nВы не авторизованы в системе.");
         }
         try {
             authorizedUser.sendMessage(usersList);
@@ -133,9 +137,9 @@ public class OneGramChat {
 
     }
 
-    public void printMessage() throws AuthorizeException {
+    private void printMessage() throws AuthorizeException {
         if (authorizedUser == null) {
-            throw new AuthorizeException("Вы не авторизованы в системе.");
+            throw new AuthorizeException("\nВы не авторизованы в системе.");
         }
         try {
             authorizedUser.printMessage();

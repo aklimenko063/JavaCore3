@@ -4,45 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="13.12.23 11:30 добавлена лекция7">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/Homework4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/CarWash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/car/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/car/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/car/PassengerCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex2/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex2/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex2/exceptions/FlyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex3/SoundMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/UsersList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/AuthorizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/MessageListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/PasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/UserListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/UserNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/Lesson8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/AxeBrokenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/Firm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex1/WorkerWithoutAxeException.java" afterDir="false" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="19.12.23 11:30 дз">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex4/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +83,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.homework.four.ex3.Runner">
+  <component name="RunManager" selected="Application.org.example.homework.four.ex4.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex4.Runner" />
       <module name="JavaCore3" />
@@ -185,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.homework.four.ex4.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex3.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex2.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex1.Runner" />
-        <item itemvalue="Application.org.example.homework.four.ex4.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -356,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702476938364</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="19.12.23 11:30 дз">
+      <option name="closed" value="true" />
+      <created>1702977139894</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702977139894</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +359,8 @@
     <MESSAGE value="12.12.23 12:00 Создал новый метод выдачи копий домов в геттере." />
     <MESSAGE value="12.12.23 12:10" />
     <MESSAGE value="13.12.23 11:30 добавлена лекция7" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.12.23 11:30 добавлена лекция7" />
+    <MESSAGE value="19.12.23 11:30 дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.12.23 11:30 дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +369,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/example/homework/four/ex4/UsersList.java</url>
+          <line>30</line>
+          <properties class="org.example.homework.four.ex4.UsersList" method="searchUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

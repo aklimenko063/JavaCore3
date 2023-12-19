@@ -34,24 +34,24 @@ public class Message {
 
     public void printMessage(Message message) {
         if (message.messageType == MessageType.INCOMING) {
-            System.out.printf("Письмо от %s: %s\n", message.fromUser, message.text);
+            System.out.printf("Письмо от %s: %s\n", message.fromUser.getName(), message.text);
         } else if (message.messageType == MessageType.OUTGOING) {
-            System.out.printf("Письмо к %s: %s\n", message.toUser, message.text);
+            System.out.printf("Письмо к %s: %s\n", message.toUser.getName(), message.text);
         }
     }
 
     private static void sendOut(Message messageOutgoing) throws MessageListException {
         if (messageOutgoing.fromUser.getFreeSlotsMessages() == 0) {
-            throw new MessageListException("Переполнен почтовый ящик у отправителя.");
+            throw new MessageListException("\nПереполнен почтовый ящик у отправителя.");
         }
         messageOutgoing.fromUser.getMessageList()[messageOutgoing.fromUser.getMessageList().length - messageOutgoing.fromUser.getFreeSlotsMessages()] = messageOutgoing;
         messageOutgoing.fromUser.setFreeSlotsMessages(messageOutgoing.fromUser.getFreeSlotsMessages() - 1);
-    };
+    }
     private static void sendIn(Message messageIncoming) throws MessageListException {
         if (messageIncoming.toUser.getFreeSlotsMessages() == 0) {
-            throw new MessageListException("Переполнен почтовый ящик у получателя.");
+            throw new MessageListException("\nПереполнен почтовый ящик у получателя.");
         }
         messageIncoming.toUser.getMessageList()[messageIncoming.toUser.getMessageList().length - messageIncoming.toUser.getFreeSlotsMessages()] = messageIncoming;
         messageIncoming.toUser.setFreeSlotsMessages(messageIncoming.toUser.getFreeSlotsMessages() - 1);
-    };
+    }
 }
