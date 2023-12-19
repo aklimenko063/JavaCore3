@@ -1,0 +1,1492 @@
+Index: src/org/example/homework/second/shop/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.shop;\r\n\r\npublic class Runner {\r\n    public static void main(String[] args) {\r\n        Item hammer = new Item(\"Молот\", 1000);\r\n        Item screwdriver = new Item(\"Отвертка\", 50);\r\n        Item notebook = new Item(\"Тетрадь\", 30);\r\n        Item pen = new Item(\"Ручка\", 10);\r\n\r\n        Worker vasiliy = new Worker(\"Василий\", 30, \"Муж\");\r\n        vasiliy.items = new Item[2];\r\n        vasiliy.items[0] = hammer;\r\n        vasiliy.items[1] = screwdriver;\r\n\r\n        Worker maryana = new Worker(\"Марьяна\", 25, \"Жен\");\r\n        maryana.items = new Item[2];\r\n        maryana.items[0] = notebook;\r\n        maryana.items[1] = pen;\r\n\r\n        Worker[] workers = new Worker[2];\r\n        workers[0] = vasiliy;\r\n        workers[1] = maryana;\r\n        Shop shop = new Shop(workers);\r\n\r\n        shop.printWorkers();\r\n        shop.employeeBoasting();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/shop/Runner.java b/src/org/example/homework/second/shop/Runner.java
+--- a/src/org/example/homework/second/shop/Runner.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/shop/Runner.java	(date 1702195081211)
+@@ -8,21 +8,19 @@
+         Item pen = new Item("Ручка", 10);
+ 
+         Worker vasiliy = new Worker("Василий", 30, "Муж");
+-        vasiliy.items = new Item[2];
+-        vasiliy.items[0] = hammer;
+-        vasiliy.items[1] = screwdriver;
++        vasiliy.setItems(new Item[]{hammer, screwdriver});
+ 
+         Worker maryana = new Worker("Марьяна", 25, "Жен");
+-        maryana.items = new Item[2];
+-        maryana.items[0] = notebook;
+-        maryana.items[1] = pen;
++        maryana.setItems(new Item[]{notebook, pen});
+ 
+-        Worker[] workers = new Worker[2];
+-        workers[0] = vasiliy;
+-        workers[1] = maryana;
++        Worker[] workers = new Worker[]{vasiliy, maryana};
+         Shop shop = new Shop(workers);
+ 
+         shop.printWorkers();
+-        shop.employeeBoasting();
++        for (Worker worker : workers) {
++            for (Item item : worker.getItems()) {
++                worker.boasting(item);
++            }
++        }
+     }
+ }
+\ No newline at end of file
+Index: src/org/example/homework/second/office/Secretary.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.office;\r\n\r\npublic class Secretary {\r\n    String employee = \"Секретарь\";\r\n\r\n    public void speech (String bossName, String managerName, String securityName) {\r\n            System.out.printf(\"%s: - %s не волнуйтесь, %s все успеет. %s - подождите!\\n\",\r\n                    employee, bossName, managerName, securityName);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/office/Secretary.java b/src/org/example/homework/second/office/Secretary.java
+--- a/src/org/example/homework/second/office/Secretary.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/office/Secretary.java	(date 1702198116438)
+@@ -1,7 +1,7 @@
+ package org.example.homework.second.office;
+ 
+ public class Secretary {
+-    String employee = "Секретарь";
++    private static final String employee = "Секретарь";
+ 
+     public void speech (String bossName, String managerName, String securityName) {
+             System.out.printf("%s: - %s не волнуйтесь, %s все успеет. %s - подождите!\n",
+Index: src/org/example/homework/third/ex5/House.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex5/House.java b/src/org/example/homework/third/ex5/House.java
+new file mode 100644
+--- /dev/null	(date 1702061967761)
++++ b/src/org/example/homework/third/ex5/House.java	(date 1702061967761)
+@@ -0,0 +1,5 @@
++package org.example.homework.third.ex5;
++
++public class House {
++
++}
+Index: src/org/example/homework/third/ex5/City.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex5/City.java b/src/org/example/homework/third/ex5/City.java
+new file mode 100644
+--- /dev/null	(date 1702057829651)
++++ b/src/org/example/homework/third/ex5/City.java	(date 1702057829651)
+@@ -0,0 +1,5 @@
++package org.example.homework.third.ex5;
++
++public final class City {
++
++}
+Index: src/org/example/homework/third/Homework3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/Homework3.java b/src/org/example/homework/third/Homework3.java
+new file mode 100644
+--- /dev/null	(date 1702020100561)
++++ b/src/org/example/homework/third/Homework3.java	(date 1702020100561)
+@@ -0,0 +1,122 @@
++package org.example.homework.third;
++
++public class Homework3 {
++    public static void main(String[] args) {
++        //В этом дз уже будет проверятся наличие корректных модификаторов доступа
++        //у классов, атрибутов, методов
++        ex1();
++        ex2();
++        ex3();
++        ex4();
++        ex5();
++    }
++
++    public static void ex1() {
++        //Реализовать в Java следующую схему (в скобках свойства объектов)
++        //У нас есть Дерево(возраст)
++        //Деревья делятся на:
++        //хвойные(имеют тип иголок)
++        //лиственные(есть листья на дереве сейчас), умеют опадать (листья пропадают с дерева)
++        //умеют цвести (листья появляются)
++        //
++        //Сосна и Ель являются хвойными.
++        //для сосны характерен тип иголок - крупный
++        //для ели характерен тип иголок - мелкий
++        //
++        //Береза является лиственным деревом.
++        //Когда Береза цветет, помимо появления листьев, она источает аллергены (печать в консоль)
++        //
++        //Создать в методе ex1 сосну, березу, ель. Положить в массив.
++        //Посчитать их средний возраст.
++
++        System.out.println("Инициализация ex1");
++        org.example.homework.third.ex1.Runner.main(null);
++        System.out.print("\n");
++    }
++
++    public static void ex2() {
++        //Задача: Фабрика телефонов
++        //Создать 2 типа телефонов и комплектующих к ним.
++        //При печати телефона должны показываться все свойства телефона и вложенных объектов.
++        //1 тип: Samsung galaxy. Имеет операционную систему Android, плату j-108(размер (ширина Х длина Х высота) 10х12х13),
++        //камеру Samsung(20x zoom).
++        //2 Тип: Iphone 15. Имеет операционную систему Ios, плату 7uik(размер 15х12х13),
++        //камеру iphone(15x zoom, есть вспышка).
++        //
++        //Создать фабрику, которая заполняет созданный телефон деталями
++        //При создании телефона в нем нет комплектующих, как будто пустой пластиковый каркас,
++        //но при этом модель телефона уже есть.
++        //
++        //
++        //В фабрике должно быть два публичных метода с одним названием:
++        //один будет собирать iphone, второй будет собирать samsung.
++        //В данном методе создать два телефона, собрать их, распечатать.
++
++        System.out.println("Инициализация ex2");
++        org.example.homework.third.ex2.Runner.main(null);
++        System.out.print("\n");
++    }
++
++    public static void ex3() {
++        //Задача: Пирамида наследования
++        //Создать классы Pyramid1, Pyramid2, Pyramid3.
++        //НЕОБХОДИМО НАСЛЕДОВАНИЕ С ИСПОЛЬЗОВАНИЕМ РОДИТЕЛЬСКИХ МЕТОДОВ!
++        // Создать метод print, который будет выводить следующий текст:
++        // M <- из Pyramid1
++        // MM <- из Pyramid2
++        // MMM <- из Pyramid3
++
++        //Т.е. при вызове pyramid1.print выведется:
++        // M
++        // MM
++        // MMM
++
++        //при вызове pyramid2.print выведется:
++        // MM
++        // MMM
++
++        //при вызове pyramid3.print выведется:
++        // MMM
++
++        //создать здесь pyramid1 и вызвать print
++
++        System.out.println("Инициализация ex3");
++        org.example.homework.third.ex3.Runner.main(null);
++        System.out.print("\n");
++    }
++
++    public static void ex4() {
++        //Задача со звездочкой!: Лотерейный билет
++        //Создать класс лотерейный билет (у объекта не может быть атрибутов)
++        //создать метод проверить удачу (не принимает в себя аргументов!):
++        //каждый десятый билет дает 100 руб,
++        //каждый сотый - 5_000,
++        //иначе 0
++        //Если совпало что билет одновременно десятый и сотый выбор в пользу сотого.
++        //
++        //Создать здесь 100 билетов, и проверить по каждому удачу.
++        //Итоговая сумма выигрыша после проверки удачи 100 билетов должна составить 5_900.
++
++        System.out.println("Инициализация ex4");
++        org.example.homework.third.ex4.Runner.main(null);
++        System.out.print("\n");
++    }
++
++    public static void ex5() {
++        //Задача со звездочкой: иммутабельность города.
++        //Иммутабельность - невозможность поменять свойства объекта и всех его вложенных объектов.
++        //
++        //Создать класс House (наименование улицы, номер дома) - создать сеттеры! и геттеры на него.
++        //Переопределить вывод в текст - вывод улицы и номера дома
++        //Создать иммутабельный класс City (наименование города, и массив домов).
++        //Переопределить вывод в текст - чтобы выводило имя города, и все дома
++        //
++        //Создать два дома, создать город с массивом созданных городов
++        //При получении домов из массива, и изменении данных (например замена улицы) у дома,
++        //у домов внутри city ничего не поменяется. Т.е. при вызове toString, будут старые имена улицы
++
++        System.out.println("Инициализация ex5");
++        org.example.homework.third.ex5.Runner.main(null);
++        System.out.print("\n");
++    }
++}
+\ No newline at end of file
+Index: src/org/example/homework/second/office/Security.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.office;\r\n\r\npublic class Security {\r\n    String employee = \"Охранник\";\r\n    String name;\r\n\r\n    public Security(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public void speech () {\r\n        System.out.printf(\"%s: - Сколько можно!!! Дайте мне аванс!\\n\", employee);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/office/Security.java b/src/org/example/homework/second/office/Security.java
+--- a/src/org/example/homework/second/office/Security.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/office/Security.java	(date 1702198116465)
+@@ -1,8 +1,8 @@
+ package org.example.homework.second.office;
+ 
+ public class Security {
+-    String employee = "Охранник";
+-    String name;
++    private static final String employee = "Охранник";
++    private String name;
+ 
+     public Security(String name) {
+         this.name = name;
+@@ -11,4 +11,8 @@
+     public void speech () {
+         System.out.printf("%s: - Сколько можно!!! Дайте мне аванс!\n", employee);
+     }
++
++    public String getName() {
++        return name;
++    }
+ }
+\ No newline at end of file
+Index: src/org/example/homework/second/office/Boss.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.office;\r\n\r\npublic class Boss {\r\n    String employee = \"БОСС\";\r\n    String name;\r\n\r\n    public Boss(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public void speech (String managerName) {\r\n        System.out.printf(\"%s: - %s, давай быстрее!\\n\",\r\n                employee, managerName);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/office/Boss.java b/src/org/example/homework/second/office/Boss.java
+--- a/src/org/example/homework/second/office/Boss.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/office/Boss.java	(date 1702198116498)
+@@ -1,8 +1,8 @@
+ package org.example.homework.second.office;
+ 
+ public class Boss {
+-    String employee = "БОСС";
+-    String name;
++    private static final String employee = "БОСС";
++    private String name;
+ 
+     public Boss(String name) {
+         this.name = name;
+@@ -12,4 +12,8 @@
+         System.out.printf("%s: - %s, давай быстрее!\n",
+                 employee, managerName);
+     }
++
++    public String getName() {
++        return name;
++    }
+ }
+\ No newline at end of file
+Index: src/org/example/homework/second/shop/Worker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.shop;\r\n\r\npublic class Worker {\r\n    String name;\r\n    int age;\r\n    String sex;\r\n    Item[] items;\r\n\r\n    public Worker (String name, int age, String sex) {\r\n        this.name = name;\r\n        this.age = age;\r\n        this.sex = sex;\r\n    }\r\n\r\n    public void boasting (Item item) {\r\n        System.out.println(this.name + \": смотрите какая у меня вещь - \" + item.name);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/shop/Worker.java b/src/org/example/homework/second/shop/Worker.java
+--- a/src/org/example/homework/second/shop/Worker.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/shop/Worker.java	(date 1702017497903)
+@@ -1,10 +1,10 @@
+ package org.example.homework.second.shop;
+ 
+ public class Worker {
+-    String name;
+-    int age;
+-    String sex;
+-    Item[] items;
++    private String name;
++    private int age;
++    private String sex;
++    private Item[] items;
+ 
+     public Worker (String name, int age, String sex) {
+         this.name = name;
+@@ -13,6 +13,26 @@
+     }
+ 
+     public void boasting (Item item) {
+-        System.out.println(this.name + ": смотрите какая у меня вещь - " + item.name);
++        System.out.println(this.name + ": смотрите какая у меня вещь - " + item.getName());
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public int getAge() {
++        return age;
++    }
++
++    public String getSex() {
++        return sex;
++    }
++
++    public Item[] getItems() {
++        return items;
++    }
++
++    public void setItems(Item[] items) {
++        this.items = items;
+     }
+ }
+\ No newline at end of file
+Index: src/org/example/homework/second/office/Office.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.office;\r\n\r\npublic class Office {\r\n    Boss boss;\r\n    Manager manager;\r\n    Security security;\r\n    Secretary secretary;\r\n\r\n    public Office(Boss boss, Manager manager, Security security, Secretary secretary) {\r\n        this.boss = boss;\r\n        this.manager = manager;\r\n        this.security = security;\r\n        this.secretary = secretary;\r\n    }\r\n\r\n    public void runWorkDay() {\r\n        boss.speech(manager.name);\r\n        manager.speech();\r\n        security.speech();\r\n        secretary.speech(boss.name, manager.name, security.name);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/office/Office.java b/src/org/example/homework/second/office/Office.java
+--- a/src/org/example/homework/second/office/Office.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/office/Office.java	(date 1702018090803)
+@@ -1,10 +1,10 @@
+ package org.example.homework.second.office;
+ 
+ public class Office {
+-    Boss boss;
+-    Manager manager;
+-    Security security;
+-    Secretary secretary;
++    private Boss boss;
++    private Manager manager;
++    private Security security;
++    private Secretary secretary;
+ 
+     public Office(Boss boss, Manager manager, Security security, Secretary secretary) {
+         this.boss = boss;
+@@ -14,9 +14,9 @@
+     }
+ 
+     public void runWorkDay() {
+-        boss.speech(manager.name);
++        boss.speech(manager.getName());
+         manager.speech();
+         security.speech();
+-        secretary.speech(boss.name, manager.name, security.name);
++        secretary.speech(boss.getName(), manager.getName(), security.getName());
+     }
+-}
++}
+\ No newline at end of file
+Index: src/org/example/homework/third/ex2/Telephone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex2/Telephone.java b/src/org/example/homework/third/ex2/Telephone.java
+new file mode 100644
+--- /dev/null	(date 1702196154604)
++++ b/src/org/example/homework/third/ex2/Telephone.java	(date 1702196154604)
+@@ -0,0 +1,5 @@
++package org.example.homework.third.ex2;
++
++public abstract class Telephone {
++
++}
+Index: src/org/example/homework/second/office/Manager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.office;\r\n\r\npublic class Manager {\r\n    String employee = \"Менеджер\";\r\n    String name;\r\n\r\n    public Manager(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public void speech () {\r\n        System.out.printf(\"%s: - Я ничего не успеваю, помогите!\\n\", employee);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/office/Manager.java b/src/org/example/homework/second/office/Manager.java
+--- a/src/org/example/homework/second/office/Manager.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/office/Manager.java	(date 1702198116489)
+@@ -1,14 +1,18 @@
+ package org.example.homework.second.office;
+ 
+ public class Manager {
+-    String employee = "Менеджер";
+-    String name;
++    private static final String employee = "Менеджер";
++    private String name;
+ 
+     public Manager(String name) {
+         this.name = name;
+     }
+ 
+     public void speech () {
+-        System.out.printf("%s: - Я ничего не успеваю, помогите!\n", employee);
++        System.out.printf("%s: - Я ничего не успеваю, пАмАгите!\n", employee);
++    }
++
++    public String getName() {
++        return name;
+     }
+ }
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example4/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example4/Runner.java b/src/org/example/lessons/lesson6/example4/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702016648597)
++++ b/src/org/example/lessons/lesson6/example4/Runner.java	(date 1702016648597)
+@@ -0,0 +1,8 @@
++package org.example.lessons.lesson6.example4;
++
++public class Runner {
++    public static void main(String[] args) {
++        Gorilla gorilla = new Gorilla(208, true);
++
++    }
++}
+\ No newline at end of file
+Index: src/org/example/homework/second/shop/Item.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.shop;\r\n\r\npublic class Item {\r\n    String name;\r\n    int weight;\r\n\r\n    public Item(String name, int weight) {\r\n        this.name = name;\r\n        this.weight = weight;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"(\" +\r\n                name + \", вес = \" + weight + \"гр\" + ')';\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/shop/Item.java b/src/org/example/homework/second/shop/Item.java
+--- a/src/org/example/homework/second/shop/Item.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/shop/Item.java	(date 1702017497927)
+@@ -1,14 +1,18 @@
+ package org.example.homework.second.shop;
+ 
+ public class Item {
+-    String name;
+-    int weight;
++    private String name;
++    private int weight;
+ 
+     public Item(String name, int weight) {
+         this.name = name;
+         this.weight = weight;
+     }
+ 
++    public String getName() {
++        return name;
++    }
++
+     @Override
+     public String toString() {
+         return "(" +
+Index: src/org/example/lessons/lesson6/example4/Mammal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example4/Mammal.java b/src/org/example/lessons/lesson6/example4/Mammal.java
+new file mode 100644
+--- /dev/null	(date 1702016710062)
++++ b/src/org/example/lessons/lesson6/example4/Mammal.java	(date 1702016710062)
+@@ -0,0 +1,15 @@
++package org.example.lessons.lesson6.example4;
++
++public abstract class Mammal extends Alive {
++    public Mammal(double weight) {
++        super(weight);
++    }
++
++    public final void feed() {
++        System.out.println("Кормит малыша");
++    }
++
++    public static void run() {
++        System.out.println("все бегут");
++    }
++}
+\ No newline at end of file
+Index: src/org/example/homework/second/shop/Shop.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.second.shop;\r\n\r\nimport java.util.Arrays;\r\n\r\npublic class Shop {\r\n    Worker[] workers;\r\n\r\n    public Shop(Worker[] workers) {\r\n        this.workers = workers;\r\n    }\r\n\r\n    public void printWorkers() {\r\n        for (Worker worker : workers) {\r\n            System.out.printf(\"%s: %d лет, %s, список вещей: %s\\n\",\r\n                    worker.name, worker.age, worker.sex, Arrays.toString(worker.items));\r\n        }\r\n    }\r\n\r\n    public void employeeBoasting() {\r\n        for (Worker worker : workers) {\r\n            for (Item item : worker.items) {\r\n                worker.boasting(item);\r\n            }\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/second/shop/Shop.java b/src/org/example/homework/second/shop/Shop.java
+--- a/src/org/example/homework/second/shop/Shop.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/second/shop/Shop.java	(date 1702195081166)
+@@ -3,7 +3,7 @@
+ import java.util.Arrays;
+ 
+ public class Shop {
+-    Worker[] workers;
++    private Worker[] workers;
+ 
+     public Shop(Worker[] workers) {
+         this.workers = workers;
+@@ -12,15 +12,7 @@
+     public void printWorkers() {
+         for (Worker worker : workers) {
+             System.out.printf("%s: %d лет, %s, список вещей: %s\n",
+-                    worker.name, worker.age, worker.sex, Arrays.toString(worker.items));
+-        }
+-    }
+-
+-    public void employeeBoasting() {
+-        for (Worker worker : workers) {
+-            for (Item item : worker.items) {
+-                worker.boasting(item);
+-            }
++                    worker.getName(), worker.getAge(), worker.getSex(), Arrays.toString(worker.getItems()));
+         }
+     }
+ }
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example4/Gorilla.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example4/Gorilla.java b/src/org/example/lessons/lesson6/example4/Gorilla.java
+new file mode 100644
+--- /dev/null	(date 1702016687020)
++++ b/src/org/example/lessons/lesson6/example4/Gorilla.java	(date 1702016687020)
+@@ -0,0 +1,14 @@
++package org.example.lessons.lesson6.example4;
++
++public final class Gorilla extends Mammal {
++    private boolean isMale;
++
++    public Gorilla(double weight, boolean isMale) {
++        super(weight);
++        this.isMale = isMale;
++    }
++
++    public void breath() {
++        System.out.println("Горилла дышит ноздрями");
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example3/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example3/Animal.java b/src/org/example/lessons/lesson6/example3/Animal.java
+new file mode 100644
+--- /dev/null	(date 1702016609873)
++++ b/src/org/example/lessons/lesson6/example3/Animal.java	(date 1702016609873)
+@@ -0,0 +1,9 @@
++package org.example.lessons.lesson6.example3;
++
++public abstract class Animal {
++    protected int age;
++
++    public Animal(int age) {
++        this.age = age;
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example2/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example2/Runner.java b/src/org/example/lessons/lesson6/example2/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702016534383)
++++ b/src/org/example/lessons/lesson6/example2/Runner.java	(date 1702016534383)
+@@ -0,0 +1,7 @@
++package org.example.lessons.lesson6.example2;
++
++public class Runner {
++    public static void main(String[] args) {
++
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example4/Alive.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example4/Alive.java b/src/org/example/lessons/lesson6/example4/Alive.java
+new file mode 100644
+--- /dev/null	(date 1702016665962)
++++ b/src/org/example/lessons/lesson6/example4/Alive.java	(date 1702016665962)
+@@ -0,0 +1,11 @@
++package org.example.lessons.lesson6.example4;
++
++public abstract class Alive extends Object {
++    protected double weight;
++
++    public Alive(double weight) {
++        this.weight = weight;
++    }
++
++    public abstract void breath();
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example3/Dog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example3/Dog.java b/src/org/example/lessons/lesson6/example3/Dog.java
+new file mode 100644
+--- /dev/null	(date 1702016627096)
++++ b/src/org/example/lessons/lesson6/example3/Dog.java	(date 1702016627096)
+@@ -0,0 +1,12 @@
++package org.example.lessons.lesson6.example3;
++
++public class Dog extends Animal {
++    private String name;
++    private String ownerName;
++
++    public Dog(int age, String name, String ownerName) {
++        super(age);
++        this.name = name;
++        this.ownerName = ownerName;
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example2/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example2/Employee.java b/src/org/example/lessons/lesson6/example2/Employee.java
+new file mode 100644
+--- /dev/null	(date 1702016568929)
++++ b/src/org/example/lessons/lesson6/example2/Employee.java	(date 1702016568929)
+@@ -0,0 +1,15 @@
++package org.example.lessons.lesson6.example2;
++
++public class Employee extends Human {
++    protected String companyName;
++
++    public Employee(String name, int age, String companyName) {
++        super(name, age);
++        this.companyName = companyName;
++    }
++
++    @Override
++    public void say() {
++        System.out.println("Я работаю");
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example1/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example1/Runner.java b/src/org/example/lessons/lesson6/example1/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702016473760)
++++ b/src/org/example/lessons/lesson6/example1/Runner.java	(date 1702016473760)
+@@ -0,0 +1,7 @@
++package org.example.lessons.lesson6.example1;
++
++public class Runner {
++    public static void main(String[] args) {
++        System.out.println(new Father("Hello").name);
++    }
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4\" name=\"Changes\" comment=\"07.12.23 08:45\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;aklimenko063&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"637ce139-8412-4775-ba1d-536c3865eefe\" />\r\n        <option name=\"url\" value=\"https://github.com/aklimenko063/JavaCore3.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/String.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2YUluM2vwNqSqnVtKpaw4eEJPTX\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/#dev/JavaProject/Abblazing/JavaCore3&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Lesson1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.lessons.Lesson1\" />\r\n      <module name=\"JavaCore3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.lessons.lesson4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Lesson1\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\KlimenkoAV\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4\" name=\"Changes\" comment=\"\" />\r\n      <created>1700588262379</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1700588262379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701023001611</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701023001611</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"29.11.23\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701255695595</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701255695595</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"01.12.23\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701441200711</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701441200711</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"02.12.23\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701530029087</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701530029087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"02.12.23\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701530187479</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701530187479</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"02.12.23\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701531262678</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701531262678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"02.12.23 поменял направление у диагонали\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701535995219</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701535995219</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"04.12.23 номер попытки в 3м задании\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701712227269</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701712227269</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"07.12.23 08:10\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701922166989</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701922166989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"07.12.23 08:45\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701924243785</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701924243785</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"11\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"29.11.23\" />\r\n    <MESSAGE value=\"01.12.23\" />\r\n    <MESSAGE value=\"02.12.23\" />\r\n    <MESSAGE value=\"02.12.23 поменял направление у диагонали\" />\r\n    <MESSAGE value=\"04.12.23 номер попытки в 3м задании\" />\r\n    <MESSAGE value=\"07.12.23 08:10\" />\r\n    <MESSAGE value=\"07.12.23 08:45\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"07.12.23 08:45\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.NullPointerException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"7\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/.idea/workspace.xml	(date 1702219809529)
+@@ -4,7 +4,56 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="07.12.23 08:45" />
++    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="08.12.23 20:30">
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/Homework3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Birch.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/ConiferTree.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/DeciduousTree.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/NeedleType.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Pine.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Spruce.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex1/Tree.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Iphone.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/PhoneFactory.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/SamsungGalaxy.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex2/Telephone.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Pyramid3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex3/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/LotteryTicket.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex4/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/City.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/House.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/homework/third/ex5/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/Lesson6.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Child.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Father.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example1/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Employee.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Human.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Manager.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example2/Runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example3/Animal.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example3/Dog.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Alive.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Gorilla.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Mammal.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson6/example4/Runner.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/first/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/first/Homework1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Boss.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Manager.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Office.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Secretary.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/office/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/office/Security.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Item.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Runner.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Shop.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/org/example/homework/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/second/shop/Worker.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -67,13 +116,65 @@
+     &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
+   }
+ }</component>
+-  <component name="RunManager">
+-    <configuration name="Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="org.example.lessons.Lesson1" />
++  <component name="RunManager" selected="Application.Runner">
++    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.Homework3" />
++      <module name="JavaCore3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.homework.third.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex4.Runner" />
++      <module name="JavaCore3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.homework.third.ex4.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="org.example.homework.second.shop.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.homework.second.shop.Runner" />
++      <module name="JavaCore3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.homework.second.shop.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="org.example.homework.third.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex1.Runner" />
++      <module name="JavaCore3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.homework.third.ex1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="org.example.homework.third.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex3.Runner" />
+       <module name="JavaCore3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="org.example.lessons.lesson4.*" />
++          <option name="PATTERN" value="org.example.homework.third.ex3.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -83,7 +184,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Lesson1" />
++        <item itemvalue="Application.Runner" />
++        <item itemvalue="Application.org.example.homework.third.ex1.Runner" />
++        <item itemvalue="Application.org.example.homework.second.shop.Runner" />
++        <item itemvalue="Application.org.example.homework.third.ex3.Runner" />
++        <item itemvalue="Application.Homework3" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -179,7 +284,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1701924243785</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="07.12.23 16:30">
++      <option name="closed" value="true" />
++      <created>1701952286891</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1701952286891</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -202,7 +315,8 @@
+     <MESSAGE value="04.12.23 номер попытки в 3м задании" />
+     <MESSAGE value="07.12.23 08:10" />
+     <MESSAGE value="07.12.23 08:45" />
+-    <option name="LAST_COMMIT_MESSAGE" value="07.12.23 08:45" />
++    <MESSAGE value="07.12.23 16:30" />
++    <option name="LAST_COMMIT_MESSAGE" value="07.12.23 16:30" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/org/example/lessons/lesson6/example2/Manager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example2/Manager.java b/src/org/example/lessons/lesson6/example2/Manager.java
+new file mode 100644
+--- /dev/null	(date 1702016589806)
++++ b/src/org/example/lessons/lesson6/example2/Manager.java	(date 1702016589806)
+@@ -0,0 +1,30 @@
++package org.example.lessons.lesson6.example2;
++
++public class Manager extends Employee {
++    private int salary;
++
++    public Manager(String name, int age, String companyName, int salary) {
++        super(name, age, companyName);
++        this.salary = salary;
++    }
++
++    @Override
++    public void say() {
++        System.out.println("Я очень много работаю");
++    }
++
++    @Override
++    public void live() {
++        super.live();
++    }
++
++    @Override
++    public String toString() {
++        return "Manager{" +
++                "salary=" + salary +
++                ", companyName='" + companyName + '\'' +
++                ", name='" + name + '\'' +
++                ", age=" + age +
++                '}';
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example2/Human.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example2/Human.java b/src/org/example/lessons/lesson6/example2/Human.java
+new file mode 100644
+--- /dev/null	(date 1702016552035)
++++ b/src/org/example/lessons/lesson6/example2/Human.java	(date 1702016552035)
+@@ -0,0 +1,19 @@
++package org.example.lessons.lesson6.example2;
++
++public class Human {
++    protected String name;
++    protected int age;
++
++    public Human(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    public void say() {
++        System.out.println("Человек говорит");
++    }
++
++    public void live() {
++        System.out.println("живу");
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/Lesson6.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/Lesson6.java b/src/org/example/lessons/lesson6/Lesson6.java
+new file mode 100644
+--- /dev/null	(date 1702016452242)
++++ b/src/org/example/lessons/lesson6/Lesson6.java	(date 1702016452242)
+@@ -0,0 +1,17 @@
++package org.example.lessons.lesson6;
++
++import org.example.lessons.lesson6.example1.Child;
++import org.example.lessons.lesson6.example3.Animal;
++import org.example.lessons.lesson6.example3.Dog;
++
++public class Lesson6 {
++    public static void main(String[] args) {
++        Child child = new Child("Yuri", "Molodyko", "car");
++
++
++        //Override - перезапись, переопределение родительского метода
++        //Overload - перегрузка метода (создание метода с таким же именем)
++        //но разные сигнатуры
++
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example1/Father.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example1/Father.java b/src/org/example/lessons/lesson6/example1/Father.java
+new file mode 100644
+--- /dev/null	(date 1702016489335)
++++ b/src/org/example/lessons/lesson6/example1/Father.java	(date 1702016489335)
+@@ -0,0 +1,28 @@
++package org.example.lessons.lesson6.example1;
++
++public class Father {
++    protected String name;
++    protected String secondName;
++    private int age;
++
++    public Father(String name) {
++        this.name = name;
++    }
++
++    public Father(String name, String secondName) {
++        this.name = name;
++        this.secondName = secondName;
++    }
++
++    public void run() {
++        System.out.println("Отец бежит");
++    }
++
++    public void watchSoccer() {
++        System.out.println("Смотрит футбол");
++    }
++
++    public String getName() {
++        return name;
++    }
++}
+\ No newline at end of file
+Index: src/org/example/lessons/lesson6/example1/Child.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/lessons/lesson6/example1/Child.java b/src/org/example/lessons/lesson6/example1/Child.java
+new file mode 100644
+--- /dev/null	(date 1702016513513)
++++ b/src/org/example/lessons/lesson6/example1/Child.java	(date 1702016513513)
+@@ -0,0 +1,21 @@
++package org.example.lessons.lesson6.example1;
++
++public class Child extends Father {
++    private String toyName;
++
++    public Child(String name, String secondName, String toyName) {
++        super(name, secondName);
++        this.toyName = toyName;
++    }
++
++
++    public void run() {
++        System.out.println("Ребенок бежит");
++    }
++
++    public void watchSoccer(String phrase) {
++        super.watchSoccer();
++        System.out.println("еще и кричит!");
++    }
++
++}
+\ No newline at end of file
+Index: src/org/example/homework/third/ex1/ConiferTree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/ConiferTree.java b/src/org/example/homework/third/ex1/ConiferTree.java
+new file mode 100644
+--- /dev/null	(date 1702196154634)
++++ b/src/org/example/homework/third/ex1/ConiferTree.java	(date 1702196154634)
+@@ -0,0 +1,10 @@
++package org.example.homework.third.ex1;
++
++public abstract class ConiferTree extends Tree {
++    protected String needleType;
++
++    public ConiferTree(int age, NeedleType needleType) {
++        super(age);
++        this.needleType = needleType.getNeedleType();
++    }
++}
+Index: src/org/example/homework/third/ex1/Pine.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/Pine.java b/src/org/example/homework/third/ex1/Pine.java
+new file mode 100644
+--- /dev/null	(date 1702203357797)
++++ b/src/org/example/homework/third/ex1/Pine.java	(date 1702203357797)
+@@ -0,0 +1,9 @@
++package org.example.homework.third.ex1;
++
++import static org.example.homework.third.ex1.NeedleType.LARGE_NEEDLE;
++
++public final class Pine extends ConiferTree {
++    public Pine(int age) {
++        super(age, LARGE_NEEDLE);
++    }
++}
+Index: src/org/example/homework/third/ex1/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/Runner.java b/src/org/example/homework/third/ex1/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702407058492)
++++ b/src/org/example/homework/third/ex1/Runner.java	(date 1702407058492)
+@@ -0,0 +1,14 @@
++package org.example.homework.third.ex1;
++
++public class Runner {
++    public static void main(String[] args) {
++        Pine pine = new Pine(200);
++        pine.age = 1;
++        Spruce spruce = new Spruce(300);
++        Birch birch = new Birch(120, true);
++        birch.leavesGrow();
++        Tree[] treeArray = new Tree[]{pine, spruce, birch};
++        Tree.averageAge(treeArray);
++
++    }
++}
+Index: src/org/example/homework/third/ex1/DeciduousTree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/DeciduousTree.java b/src/org/example/homework/third/ex1/DeciduousTree.java
+new file mode 100644
+--- /dev/null	(date 1702053296982)
++++ b/src/org/example/homework/third/ex1/DeciduousTree.java	(date 1702053296982)
+@@ -0,0 +1,28 @@
++package org.example.homework.third.ex1;
++
++public abstract class DeciduousTree extends Tree{
++    protected boolean thereAreLeavesNow;
++
++    public DeciduousTree(int age, boolean thereAreLeavesNow) {
++        super(age);
++        this.thereAreLeavesNow = thereAreLeavesNow;
++    }
++
++    protected void leavesGrow() {
++        if (!thereAreLeavesNow) {
++            thereAreLeavesNow = true;
++            System.out.println("Дерево цветет. Листья растут.");
++        } else {
++            System.out.println("Дерево уже расцвело.");
++        }
++    }
++
++    protected void leavesFall() {
++        if (thereAreLeavesNow) {
++            thereAreLeavesNow = false;
++            System.out.println("Листья опадают.");
++        } else {
++            System.out.println("На дереве нет листьев.");
++        }
++    }
++}
+Index: src/org/example/homework/third/ex1/NeedleType.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/NeedleType.java b/src/org/example/homework/third/ex1/NeedleType.java
+new file mode 100644
+--- /dev/null	(date 1702203357819)
++++ b/src/org/example/homework/third/ex1/NeedleType.java	(date 1702203357819)
+@@ -0,0 +1,15 @@
++package org.example.homework.third.ex1;
++
++public enum NeedleType {
++    LARGE_NEEDLE("Большие иголки"), SMALL_NEEDLE("Маленькие иголки");
++
++    private final String needleType;
++
++    NeedleType(String needleType) {
++        this.needleType = needleType;
++    }
++
++    public String getNeedleType() {
++        return needleType;
++    }
++}
+Index: src/org/example/homework/third/ex2/Iphone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex2/Iphone.java b/src/org/example/homework/third/ex2/Iphone.java
+new file mode 100644
+--- /dev/null	(date 1702195346629)
++++ b/src/org/example/homework/third/ex2/Iphone.java	(date 1702195346629)
+@@ -0,0 +1,4 @@
++package org.example.homework.third.ex2;
++
++public class Iphone extends Telephone {
++}
+Index: src/org/example/homework/third/ex2/PhoneFactory.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex2/PhoneFactory.java b/src/org/example/homework/third/ex2/PhoneFactory.java
+new file mode 100644
+--- /dev/null	(date 1702195346586)
++++ b/src/org/example/homework/third/ex2/PhoneFactory.java	(date 1702195346586)
+@@ -0,0 +1,16 @@
++package org.example.homework.third.ex2;
++
++public class PhoneFactory {
++
++    public void init() {
++        assembleThePhone();
++        assembleThePhone();
++    }
++    public void assembleThePhone() {
++
++    }
++
++//    public void assembleThePhone() {
++//
++//    }
++}
+Index: src/org/example/homework/third/ex1/Spruce.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/Spruce.java b/src/org/example/homework/third/ex1/Spruce.java
+new file mode 100644
+--- /dev/null	(date 1702203357779)
++++ b/src/org/example/homework/third/ex1/Spruce.java	(date 1702203357779)
+@@ -0,0 +1,9 @@
++package org.example.homework.third.ex1;
++
++import static org.example.homework.third.ex1.NeedleType.SMALL_NEEDLE;
++
++public final class Spruce extends ConiferTree {
++    public Spruce(int age) {
++        super(age, SMALL_NEEDLE);
++    }
++}
+Index: src/org/example/homework/third/ex1/Tree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/Tree.java b/src/org/example/homework/third/ex1/Tree.java
+new file mode 100644
+--- /dev/null	(date 1702196154620)
++++ b/src/org/example/homework/third/ex1/Tree.java	(date 1702196154620)
+@@ -0,0 +1,20 @@
++package org.example.homework.third.ex1;
++
++public abstract class Tree {
++    protected int age;
++
++    public Tree(int age) {
++        this.age = age;
++    }
++
++    public static void averageAge(Tree[] treeArray) {
++        int totalAge = 0;
++        double averageAge;
++        double count = treeArray.length;
++        for (Tree tree : treeArray) {
++            totalAge += tree.age;
++        }
++        averageAge = totalAge / count;
++        System.out.println("Средний возраст деревьев: " + averageAge + " лет.");
++    }
++}
+Index: src/org/example/homework/third/ex3/Pyramid1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex3/Pyramid1.java b/src/org/example/homework/third/ex3/Pyramid1.java
+new file mode 100644
+--- /dev/null	(date 1702035751976)
++++ b/src/org/example/homework/third/ex3/Pyramid1.java	(date 1702035751976)
+@@ -0,0 +1,9 @@
++package org.example.homework.third.ex3;
++
++public class Pyramid1 extends Pyramid2 {
++    @Override
++    public void print() {
++        System.out.println("M");
++        super.print();
++    }
++}
+Index: src/org/example/homework/third/ex3/Pyramid2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex3/Pyramid2.java b/src/org/example/homework/third/ex3/Pyramid2.java
+new file mode 100644
+--- /dev/null	(date 1702035728876)
++++ b/src/org/example/homework/third/ex3/Pyramid2.java	(date 1702035728876)
+@@ -0,0 +1,9 @@
++package org.example.homework.third.ex3;
++
++public class Pyramid2 extends Pyramid3 {
++    @Override
++    public void print() {
++        System.out.println("MM");
++        super.print();
++    }
++}
+Index: src/org/example/homework/third/ex2/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex2/Runner.java b/src/org/example/homework/third/ex2/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702195520747)
++++ b/src/org/example/homework/third/ex2/Runner.java	(date 1702195520747)
+@@ -0,0 +1,7 @@
++package org.example.homework.third.ex2;
++
++public class Runner {
++    public static void main(String[] args) {
++
++    }
++}
+Index: src/org/example/homework/third/ex2/SamsungGalaxy.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex2/SamsungGalaxy.java b/src/org/example/homework/third/ex2/SamsungGalaxy.java
+new file mode 100644
+--- /dev/null	(date 1702195346562)
++++ b/src/org/example/homework/third/ex2/SamsungGalaxy.java	(date 1702195346562)
+@@ -0,0 +1,4 @@
++package org.example.homework.third.ex2;
++
++public class SamsungGalaxy extends Telephone {
++}
+Index: src/org/example/homework/third/ex4/LotteryTicket.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex4/LotteryTicket.java b/src/org/example/homework/third/ex4/LotteryTicket.java
+new file mode 100644
+--- /dev/null	(date 1702219955346)
++++ b/src/org/example/homework/third/ex4/LotteryTicket.java	(date 1702219955346)
+@@ -0,0 +1,26 @@
++package org.example.homework.third.ex4;
++
++import java.util.Random;
++
++public class LotteryTicket {
++    public LotteryTicket() {
++    }
++
++    public int checkYourLuck() {
++        int reward = 0;
++        int reward10 = 100;
++        int reward100 = 5_000;
++        int ticketNumber = Runner.ticketNumber;
++
++        if (ticketNumber % 100 == 0) {
++            reward = reward100;
++            System.out.println("Билет №" + ticketNumber + ". Вы выиграли " + reward100 + " руб.");
++        } else if (ticketNumber % 10 == 0) {
++            reward = reward10;
++            System.out.println("Билет №" + ticketNumber + ". Вы выиграли " + reward10 + " руб.");
++        } else {
++            System.out.println("Билет №" + ticketNumber + ". Вы ничего не выиграли");
++        }
++        return reward;
++    }
++}
+Index: src/org/example/homework/third/ex4/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex4/Runner.java b/src/org/example/homework/third/ex4/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702220384244)
++++ b/src/org/example/homework/third/ex4/Runner.java	(date 1702220384244)
+@@ -0,0 +1,16 @@
++package org.example.homework.third.ex4;
++
++public class Runner {
++    //Номер билета
++    public static int ticketNumber = 1;
++    public static void main(String[] args) {
++        int totalReward = 0;
++        int countTicket = 110;
++        for (int i = 1; i <= countTicket; i++) {
++            LotteryTicket ticket = new LotteryTicket();
++            totalReward += ticket.checkYourLuck();
++            ticketNumber++;
++        }
++        System.out.println("Сумма вознаграждения: " + totalReward);
++    }
++}
+Index: src/org/example/homework/third/ex3/Pyramid3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex3/Pyramid3.java b/src/org/example/homework/third/ex3/Pyramid3.java
+new file mode 100644
+--- /dev/null	(date 1702035835810)
++++ b/src/org/example/homework/third/ex3/Pyramid3.java	(date 1702035835810)
+@@ -0,0 +1,7 @@
++package org.example.homework.third.ex3;
++
++public class Pyramid3 {
++    public void print() {
++        System.out.println("MMM");
++    }
++}
+Index: src/org/example/homework/third/ex3/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex3/Runner.java b/src/org/example/homework/third/ex3/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702131235248)
++++ b/src/org/example/homework/third/ex3/Runner.java	(date 1702131235248)
+@@ -0,0 +1,21 @@
++package org.example.homework.third.ex3;
++
++public class Runner {
++    public static void main(String[] args) {
++        Pyramid1 pyramid1 = new Pyramid1();
++        Pyramid2 pyramid2 = new Pyramid2();
++        Pyramid3 pyramid3 = new Pyramid3();
++
++        System.out.println("Результат print для Pyramid1:");
++        pyramid1.print();
++        System.out.println("_____________________________");
++
++        System.out.println("Результат print для Pyramid2:");
++        pyramid2.print();
++        System.out.println("_____________________________");
++
++        System.out.println("Результат print для Pyramid3:");
++        pyramid3.print();
++        System.out.println("_____________________________");
++    }
++}
+Index: src/org/example/homework/third/ex1/Birch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex1/Birch.java b/src/org/example/homework/third/ex1/Birch.java
+new file mode 100644
+--- /dev/null	(date 1702196154579)
++++ b/src/org/example/homework/third/ex1/Birch.java	(date 1702196154579)
+@@ -0,0 +1,13 @@
++package org.example.homework.third.ex1;
++
++public final class Birch extends DeciduousTree {
++    public Birch(int age, boolean thereAreLeavesNow) {
++        super(age, thereAreLeavesNow);
++    }
++
++    @Override
++    public void leavesGrow() {
++        super.leavesGrow();
++        System.out.println("Очень много аллергенов. Будьте здоровы.");
++    }
++}
+Index: src/org/example/homework/third/ex5/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/third/ex5/Runner.java b/src/org/example/homework/third/ex5/Runner.java
+new file mode 100644
+--- /dev/null	(date 1702019850588)
++++ b/src/org/example/homework/third/ex5/Runner.java	(date 1702019850588)
+@@ -0,0 +1,7 @@
++package org.example.homework.third.ex5;
++
++public class Runner {
++    public static void main(String[] args) {
++
++    }
++}
+Index: src/org/example/homework/first/Homework1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.homework.first;\r\n\r\nimport static org.example.homework.first.Product.*;\r\nimport static org.example.homework.first.TaxRates.*;\r\n\r\npublic class Homework1 {\r\n    public static void main(String[] args) {\r\n        ex1();\r\n        ex2();\r\n        ex3();\r\n        ex4();\r\n        ex4_1();\r\n    }\r\n\r\n    public static void ex1() {\r\n        //Дана строка\r\n        String name = \"     ПЕтРов Олег Иванович     \";\r\n        //Необходимо\r\n        //1. убрать лишние пробелы,\r\n        //2. перевести текст в верхний регистр\r\n        //3. Если содержит \"ова \" то печатаем на экран: Уважаемая {name}\r\n        // Если содержит \"ов \" то печатаем на экран: Уважаемый {name}\r\n        // В иных случаях печатаем на экран: Неизвестное лицо {name}\r\n\r\n        String nameTrimUpper = name.trim().toUpperCase();\r\n        String endingWoman = \"ова \";\r\n        String endingMan = \"ов \";\r\n        String appeal = \"Неизвестное лицо  \";\r\n\r\n        if (nameTrimUpper.contains(endingWoman.toUpperCase())) {\r\n            appeal = \"Уважаемая \";\r\n        } else if (nameTrimUpper.contains(endingMan.toUpperCase())) {\r\n            appeal = \"Уважаемый \";\r\n        }\r\n\r\n        System.out.println(appeal.toUpperCase() + nameTrimUpper);\r\n\r\n    }\r\n\r\n    public static void ex2() {\r\n        //У нас есть машина. В данной машине есть есть перечень проверок, перед запуском\r\n        //Количество топлива\r\n        double fuel = 10;\r\n        //Проверка двигателя\r\n        boolean isEngineWork = true;\r\n        //Проверка отсутствия ошибок (false - ошибок нет)\r\n        boolean hasErrors = false;\r\n        //Датчики давления шин\r\n        boolean isWheelWork1 = true;\r\n        boolean isWheelWork2 = true;\r\n        boolean isWheelWork3 = true;\r\n        boolean isWheelWork4 = true;\r\n\r\n        //Поменять(убрать, поставить) логические операторы так, чтобы машина запускалась:\r\n        // когда топлива не меньше 10 литров, двигатель работает, колеса все работают, нет ошибок\r\n        //В ином случае, машина не должна запускаться\r\n        if (!(fuel < 10) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4) && !hasErrors && isEngineWork) {\r\n            System.out.println(\"Машина работает\");\r\n        } else {\r\n            System.out.println(\"Машина не работает\");\r\n        }\r\n\r\n    }\r\n\r\n    public static void ex3() {\r\n        //Работа на самостоятельное изучение методов.\r\n        //Заменить в строке все 'this is' на 'those are', получить индекс (число) второй буквы 'o' в строке\r\n        //Распечатать полученный индекс\r\n        String simply = \"this is simply. This is my favorite song.\";\r\n\r\n        String replacedSimply = simply.toLowerCase().replaceAll(\"this is\", \"those are\");\r\n        int indexCharO = replacedSimply.indexOf(\"o\", replacedSimply.indexOf(\"o\") + 1 );\r\n        System.out.println(indexCharO);\r\n\r\n    }\r\n\r\n    public static void ex4() {\r\n        //Компания Рога и Копыта производит мясные продукты.\r\n        //Перечень производимых товаров :\r\n        //Колбаса - стоимость 800 руб,\r\n        //себестоимость при производстве меньше 1000 кг - 412руб,\r\n        //себестоимость при производстве от 1000 до 2000 (не включая) - 408 руб\r\n        //себестоимость при производстве от 2000кг - 404 руб\r\n\r\n        //Ветчина - стоимость 350 руб\r\n        //себестоимость при производстве - 275 руб\r\n\r\n        //Шейка - стоимость 500 руб\r\n        //себестоимость при производстве меньше 500кг - 311 руб\r\n        //себестоимость при производстве больше или равно 500кг - 299 руб\r\n\r\n        //Финансовые показатели\r\n        //Доход компании считается как умножение стоимости на количество проданных кг\r\n        //Расход компании считается как умножение себестоимости на количество проданных кг + миллион рублей\r\n        //Прибыль до налогов считается как: доход - расход\r\n        //Налоги считаются так:\r\n        // прибыль до налогов больше 2_000_000, облагается ставкой 13%\r\n        // прибыль до налогов больше 1_000_000 от 2_000_000, облагается ставкой 10%\r\n        // прибыль до налогов меньше 1_000_000, облагается ставкой 8%\r\n        //пример расчета налогов для прибыли до налогов 2_500_000:\r\n        //1_000_000 - налог 80_000 - по ставке 8%\r\n        //1_000_000 - налог 100_000 - по ставке 10%\r\n        //500_000 - 65_000 - по ставке 13%\r\n        //Итоговый налог: 80_000 + 100_000 + 65_000 = 245_000\r\n        //Прибыль после налогов: прибыль до налогов - налог.\r\n\r\n        //Необходимо создать универсальную систему расчетов прибыли после налогов,\r\n        //Т.е на вход подаются данные по количеству произведенных продуктов\r\n        // и печатается прибыль после налогов компании\r\n        //Узнать прибыль после налогов, при продаже:\r\n        //Колбасы 2000кг\r\n        //Ветчины 8511кг\r\n        //Шейки 6988кг\r\n\r\n        int sellingPriceSausage = 800;\r\n        int productionCostLessThan1000Sausage = 412;\r\n        int productionCostFrom1000to2000Sausage = 408;\r\n        int productionCostMoreThan2000Sausage = 404;\r\n        int quantitySausage = 2000;\r\n\r\n        int sellingPriceHam = 350;\r\n        int productionCostHam = 275;\r\n        int quantityHam = 8511;\r\n\r\n        int sellingPriceNeck = 500;\r\n        int productionCostLessThan500Neck = 311;\r\n        int productionCostMoreThan500Neck = 299;\r\n        int quantityNeck = 6988;\r\n\r\n        int overheads = 1_000_000;\r\n\r\n        int incomeSausage = sellingPriceSausage * quantitySausage;\r\n        int incomeHam = sellingPriceHam * quantityHam;\r\n        int incomeNeck = sellingPriceNeck * quantityNeck;\r\n        int incomeAll = incomeSausage + incomeHam + incomeNeck;\r\n\r\n        int costOfSausage = 0;\r\n        if (quantitySausage < 1000) {\r\n            costOfSausage = productionCostLessThan1000Sausage * quantitySausage;\r\n        } else if (quantitySausage >= 1000 && quantitySausage < 2000) {\r\n            costOfSausage = productionCostFrom1000to2000Sausage * quantitySausage;\r\n        } else if (quantitySausage >= 2000) {\r\n            costOfSausage = productionCostMoreThan2000Sausage * quantitySausage;\r\n        }\r\n\r\n        int costOfHam = productionCostHam * quantityHam;\r\n\r\n        int costOfNeck = 0;\r\n        if (quantityNeck < 500) {\r\n            costOfNeck = productionCostLessThan500Neck * quantityNeck;\r\n        } else if (quantityNeck >= 500) {\r\n            costOfNeck = productionCostMoreThan500Neck * quantityNeck;\r\n        }\r\n\r\n        int costAll = costOfSausage + costOfHam + costOfNeck;\r\n        int expensesAll = costAll + overheads;\r\n\r\n        int marginalProfit = incomeAll - expensesAll;\r\n\r\n        //Расчет налогов\r\n        int calculationBase = marginalProfit;\r\n        double rate8 = 0.08;\r\n        double rate10 = 0.1;\r\n        double rate13 = 0.13;\r\n        double tax8 = 0;\r\n        double tax10 = 0;\r\n        double tax13 = 0;\r\n\r\n        if (marginalProfit <= 1_000_000) {\r\n            tax8 = rate8 * calculationBase;\r\n            calculationBase = calculationBase - calculationBase;\r\n        } else if (marginalProfit > 1_000_000 && marginalProfit <= 2_000_000) {\r\n            tax8 = rate8 * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            tax10 = rate10 * calculationBase;\r\n            calculationBase = calculationBase - calculationBase;\r\n        } else if (marginalProfit > 2_000_000) {\r\n            tax8 = rate8 * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            tax10 = rate10 * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            tax13 = rate13 * calculationBase;\r\n            calculationBase = calculationBase - calculationBase;\r\n        }\r\n\r\n        double generalTax = tax8 + tax10 + tax13;\r\n        double profit = marginalProfit - generalTax;\r\n\r\n        System.out.println(profit);\r\n\r\n    }\r\n\r\n    public static void ex4_1() {\r\n        //Компания Рога и Копыта производит мясные продукты.\r\n        //Перечень производимых товаров :\r\n        //Колбаса - стоимость 800 руб,\r\n        //себестоимость при производстве меньше 1000 кг - 412руб,\r\n        //себестоимость при производстве от 1000 до 2000 (не включая) - 408 руб\r\n        //себестоимость при производстве от 2000кг - 404 руб\r\n\r\n        //Ветчина - стоимость 350 руб\r\n        //себестоимость при производстве - 275 руб\r\n\r\n        //Шейка - стоимость 500 руб\r\n        //себестоимость при производстве меньше 500кг - 311 руб\r\n        //себестоимость при производстве больше или равно 500кг - 299 руб\r\n\r\n        //Финансовые показатели\r\n        //Доход компании считается как умножение стоимости на количество проданных кг\r\n        //Расход компании считается как умножение себестоимости на количество проданных кг + миллион рублей\r\n        //Прибыль до налогов считается как: доход - расход\r\n        //Налоги считаются так:\r\n        // прибыль до налогов больше 2_000_000, облагается ставкой 13%\r\n        // прибыль до налогов больше 1_000_000 от 2_000_000, облагается ставкой 10%\r\n        // прибыль до налогов меньше 1_000_000, облагается ставкой 8%\r\n        //пример расчета налогов для прибыли до налогов 2_500_000:\r\n        //1_000_000 - налог 80_000 - по ставке 8%\r\n        //1_000_000 - налог 100_000 - по ставке 10%\r\n        //500_000 - 65_000 - по ставке 13%\r\n        //Итоговый налог: 80_000 + 100_000 + 65_000 = 245_000\r\n        //Прибыль после налогов: прибыль до налогов - налог.\r\n\r\n        //Необходимо создать универсальную систему расчетов прибыли после налогов,\r\n        //Т.е на вход подаются данные по количеству произведенных продуктов\r\n        // и печатается прибыль после налогов компании\r\n        //Узнать прибыль после налогов, при продаже:\r\n        //Колбасы 2000кг\r\n        //Ветчины 8511кг\r\n        //Шейки 6988кг\r\n\r\n        int quantitySausage = 2000;\r\n        int productionCostSausage = getProductCost(SAUSAGE, quantitySausage);\r\n\r\n        int quantityHam = 8511;\r\n        int productionCostHam = getProductCost(HAM, quantityHam);\r\n\r\n        int quantityNeck = 6988;\r\n        int productionCostNeck = getProductCost(NECK, quantityNeck);\r\n\r\n        long overheads = 1_000_000;\r\n\r\n        long incomeAll = calcIncome(\r\n                new int[]{SAUSAGE.getSellingPrice(), HAM.getSellingPrice(), NECK.getSellingPrice()},\r\n                new int[]{quantitySausage, quantityHam, quantityNeck});\r\n\r\n        long expensesAll = calcExpenses(\r\n                new int[]{productionCostSausage, productionCostHam, productionCostNeck},\r\n                new int[]{quantitySausage, quantityHam, quantityNeck}, overheads);\r\n\r\n        long marginalProfit = incomeAll - expensesAll;\r\n\r\n        //Расчет налогов\r\n        long calculationBase = marginalProfit;\r\n        double taxTotal = calcTax(calculationBase, marginalProfit);\r\n        double profit = marginalProfit - taxTotal;\r\n\r\n        System.out.println(profit);\r\n    }\r\n\r\n    private static long calcIncome(int[] prices, int[] quality) {\r\n        long result = 0;\r\n        for (int i = 0; i < prices.length; i++) {\r\n            result += prices[i] * quality[i];\r\n        }\r\n        return result;\r\n    }\r\n\r\n    private static long calcExpenses(int[] cost, int[] quality, long overheads) {\r\n        return calcIncome(cost, quality) + overheads;\r\n    }\r\n\r\n    private static double calcTax(long calculationBase, long marginalProfit) {\r\n        double taxTotal = 0;\r\n        if (marginalProfit <= TAX_BEFORE_ONE_MILLION.getLimit()) {\r\n            taxTotal = TAX_BEFORE_ONE_MILLION.getTaxRate() * calculationBase;\r\n        } else if ((marginalProfit > TAX_BEFORE_ONE_MILLION.getLimit()) && (marginalProfit <= TAX_BEFORE_TWO_MILLION.getLimit())) {\r\n            taxTotal = TAX_BEFORE_ONE_MILLION.getTaxRate() * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            taxTotal += TAX_BEFORE_TWO_MILLION.getTaxRate() * calculationBase;\r\n        } else if (marginalProfit > TAX_BEFORE_ONE_MILLION.getLimit() && marginalProfit < TAX_AFTER_TWO_MILLION.getLimit()) {\r\n            taxTotal = TAX_BEFORE_ONE_MILLION.getTaxRate() * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            taxTotal += TAX_BEFORE_TWO_MILLION.getTaxRate() * 1_000_000;\r\n            calculationBase = calculationBase - 1_000_000;\r\n            taxTotal += TAX_AFTER_TWO_MILLION.getTaxRate() * calculationBase;\r\n        }\r\n        return taxTotal;\r\n    }\r\n\r\n    private static int getProductCost(Product product, int quantity) {\r\n        if (product == SAUSAGE) {\r\n            if (quantity < 1000) {\r\n                return 412;\r\n            } else if (quantity >= 1000 && quantity < 2000) {\r\n                return 408;\r\n            }\r\n            return 404;\r\n        } else if (product == Product.HAM) {\r\n            return 275;\r\n        } else if (product == NECK) {\r\n            if (quantity < 500) {\r\n                return 311;\r\n            }\r\n            return 299;\r\n        }\r\n        throw new RuntimeException(\"Неизвестный тип продукта.\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/example/homework/first/Homework1.java b/src/org/example/homework/first/Homework1.java
+--- a/src/org/example/homework/first/Homework1.java	(revision 3647a54f72aaf23ebb7c5feaa0f806a931646aca)
++++ b/src/org/example/homework/first/Homework1.java	(date 1702022737246)
+@@ -295,7 +295,7 @@
+                 return 408;
+             }
+             return 404;
+-        } else if (product == Product.HAM) {
++        } else if (product == HAM) {
+             return 275;
+         } else if (product == NECK) {
+             if (quantity < 500) {
