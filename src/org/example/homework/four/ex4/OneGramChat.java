@@ -97,11 +97,10 @@ public class OneGramChat {
                             if (searchingUser.getPassword().equals(choicePass) && !choicePass.isEmpty()) {
                                 System.out.println("\nВы авторизовались в системе.");
                                 authorizedUser = searchingUser;
-                                break;
                             } else {
-                                System.out.println("\nПароль неверный.");
-                                break;
+                                System.out.println("\nПароль неверный. Авторизация отклонена.");
                             }
+                            break;
                         }
                         break;
                     } else {
