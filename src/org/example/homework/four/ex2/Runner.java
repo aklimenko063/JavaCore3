@@ -25,34 +25,18 @@ import org.example.homework.four.ex2.exceptions.FlyException;
 public class Runner {
     public static void main(String[] args) {
 
-        Duck duckIsNotInjured = new Duck(false);
-        Duck duckIsInjured = new Duck(true);
-        Airplane airplane = new Airplane(10);
-        Airplane airplane2 = new Airplane(-1);
+        Flyable duckIsNotInjured = new Duck(false);
+        Flyable duckIsInjured = new Duck(true);
+        Flyable airplane = new Airplane(10);
+        Flyable airplane2 = new Airplane(-1);
 
-        try {
-             duckIsNotInjured.fly();
-        } catch (FlyException e) {
-            System.out.println(e.getMessage());
+        Flyable[] flyables = {duckIsNotInjured, duckIsInjured, airplane, airplane2};
+        for (Flyable flyable : flyables) {
+            try {
+                flyable.fly();
+            } catch (FlyException e) {
+                System.out.println(e.getMessage());
+            }
         }
-
-        try {
-            duckIsInjured.fly();
-        } catch (FlyException e) {
-            System.out.println(e.getMessage());
-        }
-
-        try {
-            airplane.fly();
-        } catch (FlyException e) {
-            System.out.println(e.getMessage());
-        }
-
-        try {
-            airplane2.fly();
-        } catch (FlyException e) {
-            System.out.println(e.getMessage());
-        }
-
     }
 }
