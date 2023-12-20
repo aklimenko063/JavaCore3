@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="20.12.23 14:30" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="20.12.23 14:30">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex1/CarWash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex1/CarWash.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.org.example.homework.four.ex1.Runner.executor": "Run",
     "Application.org.example.homework.four.ex2.Runner.executor": "Run",
     "Application.org.example.homework.four.ex4.Runner.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -80,7 +84,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.homework.four.ex2.Runner">
+  <component name="RunManager" selected="Application.org.example.homework.four.ex1.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homework.third.ex4.Runner" />
       <module name="JavaCore3" />
@@ -148,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.homework.four.ex1.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex2.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex4.Runner" />
         <item itemvalue="Application.org.example.homework.four.ex3.Runner" />
-        <item itemvalue="Application.org.example.homework.four.ex1.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -367,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703067769311</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="20.12.23 14:30">
+      <option name="closed" value="true" />
+      <created>1703067891685</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703067891685</updated>
+    </task>
+    <task id="LOCAL-00026" summary="20.12.23 14:30">
+      <option name="closed" value="true" />
+      <created>1703068165884</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703068165884</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,15 +428,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/org/example/homework/four/ex4/UsersList.java</url>
-          <line>30</line>
-          <properties class="org.example.homework.four.ex4.UsersList" method="searchUser">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

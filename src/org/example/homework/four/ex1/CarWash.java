@@ -6,7 +6,7 @@ public class CarWash {
     private final int taxWashBigAuto = 4_000;
     private final int taxWashSmallAuto = 2_000;
 
-    public int washCar(Car car) throws Exception {
+    public int washCar(Car car) {
         car.setClean(true);
         return calculateTariff(car);
     }
@@ -14,11 +14,7 @@ public class CarWash {
     public int washCar(Car[] cars) {
         int totalCostWork = 0;
         for (Car car : cars) {
-            try {
-                totalCostWork += washCar(car);
-            } catch (Exception e) {
-                System.out.println(e.getMessage());;
-            }
+            totalCostWork += washCar(car);
         }
         return totalCostWork;
     }
