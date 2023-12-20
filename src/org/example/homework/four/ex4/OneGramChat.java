@@ -55,17 +55,14 @@ public class OneGramChat {
                 comeIn();
             } else if (mainMenu[1].equals(choice)) {
                 addUser();
-//                System.out.println("\n".repeat(15));
             } else if (mainMenu[2].equals(choice)) {
                 comeOut();
-//                System.out.println("\n".repeat(15));
             } else if (mainMenu[3].equals(choice)) {
                 try {
                     sendMessage();
                 } catch (AuthorizeException e) {
                     System.out.println(e.getMessage());
                 }
-//                System.out.println("\n".repeat(15));
             } else if (mainMenu[4].equals(choice)) {
                 try {
                     printMessage();
@@ -74,7 +71,6 @@ public class OneGramChat {
                 }
             } else if (mainMenu[5].equals(choice)) {
                 System.out.println("Программа завершена.");
-//                System.out.println("\n".repeat(15));
                 break;
             } else {
                 System.out.println("\nНекорректное действие. Повторите ввод.");

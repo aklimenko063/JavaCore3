@@ -420,4 +420,9 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaCore3$org_example_homework_four_ex2_Runner.ic" NAME="org.example.homework.four.ex2.Runner Coverage Results" MODIFIED="1703067728260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.homework.four.ex2.*</FILTER>
+    </SUITE>
+  </component>
 </project>
