@@ -3,7 +3,7 @@ package org.example.homework.four.ex2;
 import org.example.homework.four.ex2.exceptions.FlyException;
 
 public class Airplane implements Flyable {
-    int countPassengers;
+    private int countPassengers;
 
     public Airplane(int countPassengers) {
         this.countPassengers = countPassengers;
