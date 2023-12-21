@@ -77,7 +77,7 @@ public class User {
     public void sendMessage(UsersList usersList) throws UserNameException {
         User searchingUser;
         while (true) {
-            System.out.println("Введите имя пользователя: ");
+            System.out.println("Введите имя пользователя получателя: ");
             String choiceName = OneGramChat.scanner.nextLine();
 
             if (usersList.getFreeSlotsUserList() != usersList.getUsers().length && !choiceName.isEmpty()) {

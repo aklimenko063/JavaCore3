@@ -1,6 +1,7 @@
 package org.example.homework.four.ex4;
 
 import org.example.homework.four.ex4.exception.AuthorizeException;
+import org.example.homework.four.ex4.exception.MenuOperationException;
 import org.example.homework.four.ex4.exception.MessageListException;
 import org.example.homework.four.ex4.exception.UserNameException;
 
@@ -19,6 +20,7 @@ public class OneGramChat {
     public void initChat() {
         initializeUsersList();
         initializeMenu();
+        System.out.println("OneGramChat запущен.\n");
         startChat();
     }
 
@@ -40,7 +42,16 @@ public class OneGramChat {
     }
 
     private void startChat() {
-        System.out.println("OneGramChat запущен.\n");
+
+        try {
+            menuOperation();
+        } catch (MenuOperationException e) {
+            System.out.println(e.getMessage());
+            startChat();
+        }
+    }
+
+    private void menuOperation() throws MenuOperationException {
 
         while (true) {
             System.out.print("\n");
@@ -73,7 +84,7 @@ public class OneGramChat {
                 System.out.println("Программа завершена.");
                 break;
             } else {
-                System.out.println("\nНекорректное действие. Повторите ввод.");
+                throw new MenuOperationException("Некорректное действие. Повторите ввод.");
             }
         }
     }
