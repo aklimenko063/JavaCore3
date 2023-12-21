@@ -44,14 +44,14 @@ public class OneGramChat {
     private void startChat() {
 
         try {
-            menuOperation();
+            openMenu();
         } catch (MenuOperationException e) {
             System.out.println(e.getMessage());
             startChat();
         }
     }
 
-    private void menuOperation() throws MenuOperationException {
+    private void openMenu() throws MenuOperationException {
 
         while (true) {
             System.out.print("\n");
