@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="20.12.23 14:30">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/exception/MenuOperationException.java" afterDir="false" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="21.12.23 10:00">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703070730468</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="21.12.23 10:00">
+      <option name="closed" value="true" />
+      <created>1703138629653</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703138629653</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +418,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -436,7 +454,8 @@
     <MESSAGE value="19.12.23 11:30 дз" />
     <MESSAGE value="19.12.23 14:30" />
     <MESSAGE value="20.12.23 14:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.12.23 14:30" />
+    <MESSAGE value="21.12.23 10:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.12.23 10:00" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

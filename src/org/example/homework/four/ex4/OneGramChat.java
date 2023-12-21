@@ -67,7 +67,11 @@ public class OneGramChat {
             } else if (mainMenu[1].equals(choice)) {
                 addUser();
             } else if (mainMenu[2].equals(choice)) {
-                comeOut();
+                try {
+                    comeOut();
+                } catch (AuthorizeException e) {
+                    System.out.println(e.getMessage());
+                }
             } else if (mainMenu[3].equals(choice)) {
                 try {
                     sendMessage();
@@ -122,7 +126,10 @@ public class OneGramChat {
         }
     }
 
-    private void comeOut() {
+    private void comeOut() throws AuthorizeException {
+        if (authorizedUser == null) {
+            throw new AuthorizeException("\nВы не авторизованы в системе.");
+        }
         authorizedUser = null;
         System.out.println("\nВы вышли из системы.");
     }
