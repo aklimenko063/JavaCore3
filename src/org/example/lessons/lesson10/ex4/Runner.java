@@ -12,7 +12,7 @@ public class Runner {
      * и вывода каждой второй строки из созданного файла.
      */
     public static void main(String[] args) throws IOException {
-        String filename = "C:\\work\\repos\\java_core_3\\test.txt";
+        String filename = "C:\\work\\repos\\java_core_3\\test.txt.txt";
         try (FileWriter fileWriter = new FileWriter(filename)) {
             for (int i = 1; i < 101; i++) {
                 fileWriter.write(i + "\n");

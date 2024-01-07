@@ -24,15 +24,15 @@ public class Runner {
         FileOutputStream outputStream = new FileOutputStream(logFile);
         System.setOut(new PrintStream(outputStream));
         System.out.println("text");
-        System.out.println("метод output выполнен!");
+        System.out.println("метод output.txt выполнен!");
     }
 
     /**
-     * Output - Вывод данных из программы.
+     * output.txt - Вывод данных из программы.
      * Простейший пример вывода данных в файл.
      */
     private static void outputSimple() throws IOException {
-        String filename = "C:\\work\\repos\\java_core_3\\output.txt";
+        String filename = "C:\\work\\repos\\java_core_3\\output.txt.txt";
         try (FileWriter fileWriter = new FileWriter(filename)) {
             fileWriter.write("Дамир - гений!");
             fileWriter.write("Дамир - гений!");
@@ -46,7 +46,7 @@ public class Runner {
      */
     private static void input() throws IOException {
         //Путь до файла
-        String filename = "C:\\work\\repos\\java_core_3\\test.txt";
+        String filename = "C:\\work\\repos\\java_core_3\\test.txt.txt";
         try (FileReader fileReader = new FileReader(filename);) {
             String result = "";
             while (fileReader.ready()) {
@@ -71,7 +71,7 @@ public class Runner {
      * Пример чтения файла построчно с помощью класса Scanner
      */
     private static void inputScanner() throws FileNotFoundException {
-        File file = new File("C:\\work\\repos\\java_core_3\\test.txt");
+        File file = new File("C:\\work\\repos\\java_core_3\\test.txt.txt");
         try (Scanner scanner = new Scanner(file);) {
             while (scanner.hasNext()) {
                 System.out.println(scanner.nextLine());

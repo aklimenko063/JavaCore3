@@ -6,7 +6,7 @@ public class Runner {
      */
     public static void main(String[] args) {
         //Так как путь до файла абсолютный, то для каждого компьютера он будет свой
-        String filename = "C:\\work\\repos\\java_core_3\\output.txt";
+        String filename = "C:\\work\\repos\\java_core_3\\output.txt.txt";
 
         try (FileWriterWithLn fileWriter = new FileWriterWithLn(filename)) {
             fileWriter.write("Дамир - гений!");
