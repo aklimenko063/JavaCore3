@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="22.12.23">
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson10/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson10/ex2/FileWriterWithLn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson10/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson10/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson10/ex4/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/Firm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/exceptions/AxeBrokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/ex2/exceptions/WorkerWithoutAxeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/Lesson9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex1/Detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex1/DetailSmall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex1/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex1/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex2/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex2/WolfPride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex4/Microwave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson9/ex4/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_22_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_2023_19_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_2023_19_24__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/four/ex4/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/lessons/lesson8/Lesson8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/lessons/lesson8/Lesson8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +54,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin_slg/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -47,40 +92,45 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/org/example/homework/four/ex4/OneGramChat.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2YUluM2vwNqSqnVtKpaw4eEJPTX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.org.example.homework.four.ex1.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex2.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex4.Runner.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/#dev/JavaProject/Abblazing/WonderField",
-    "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "settings.editor.splitter.proportion": "0.2823649"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.org.example.homework.four.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex4.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/#dev/JavaProject/Abblazing/WonderField2&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2823649&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.homework.four.ex4.exception" />
@@ -416,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703256319826</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="22.12.23">
+      <option name="closed" value="true" />
+      <created>1703258459333</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703258459333</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +497,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin_slg/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

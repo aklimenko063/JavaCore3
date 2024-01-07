@@ -3,10 +3,10 @@ package org.example.homework.four.ex4;
 import org.example.homework.four.ex4.exception.MessageListException;
 
 public class Message {
-    private String text;
-    private MessageType messageType;
-    private User fromUser;
-    private User toUser;
+    private final String text;
+    private final MessageType messageType;
+    private final User fromUser;
+    private final User toUser;
 
     private Message(User fromUser, User toUser, MessageType messageType, String text) {
         this.fromUser = fromUser;
