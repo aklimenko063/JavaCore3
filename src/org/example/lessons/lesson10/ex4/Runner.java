@@ -22,8 +22,9 @@ public class Runner {
         try (Scanner scanner = new Scanner(new File(filename))) {
             int numberLine = 1;
             while (scanner.hasNext()) {
+                String line = scanner.nextLine();
                 if (numberLine % 2 == 0) {
-                    System.out.println(scanner.nextLine());
+                    System.out.println(line);
                 }
                 numberLine++;
             }

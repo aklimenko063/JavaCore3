@@ -1,4 +1,4 @@
-package org.example.lessons.lesson8;
+package org.example.lessons.lesson8.ex1;
 
 public class Car {
     private double fuel;

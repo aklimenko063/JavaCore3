@@ -10,7 +10,7 @@ public class Runner {
      * В данном случае нет необходимости писать абсолютный путь.
      */
     public static void main(String[] args) throws IOException {
-        try (InputStream stream = Runner.class.getClassLoader().getResourceAsStream("prices.txt.txt");
+        try (InputStream stream = Runner.class.getClassLoader().getResourceAsStream("prices.txt");
              Scanner scanner = new Scanner(stream)) {
             System.out.println(scanner.nextLine());
         }

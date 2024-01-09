@@ -1,5 +1,7 @@
 package org.example.lessons.lesson8;
 
+import org.example.lessons.lesson8.ex1.Car;
+
 /**
  * Работа с исключениями - Exceptions
  */

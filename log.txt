@@ -1,0 +1,2 @@
+text
+метод output.txt выполнен!
