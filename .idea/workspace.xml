@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="13.01.24">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/product/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/product/Shoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/product/Vodka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/shop/ShopPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/shop/ShopShoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/shop/ShopVodka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex1/shop/ShopWithoutGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/AppleComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/input/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/input/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/input/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/output/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/output/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson1/ex2/output/SoundBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex3/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/Homework4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/OneGramChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/OneGramChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/AuthorizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/AuthorizeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/MenuOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/MenuOperationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/MessageListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/MessageListException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/PasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/PasswordException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/UserListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/UserListException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/UserNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/four/ex4/exception/UserNameException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Secretary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/office/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module1/homework/second/shop/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +89,7 @@
     "Application.org.example.lessons.exp.Runner.executor": "Debug",
     "Application.org.example.lessons.lesson9.ex4.Runner.executor": "Debug",
     "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -137,7 +101,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/JavaCore3",
+    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/JavaCore",
     "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -537,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705161670919</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="13.01.24">
+      <option name="closed" value="true" />
+      <created>1705163219134</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1705163219134</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
