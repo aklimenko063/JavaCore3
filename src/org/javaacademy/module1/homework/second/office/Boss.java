@@ -1,4 +1,4 @@
-package org.javaacademy.homework.second.office;
+package org.javaacademy.module1.homework.second.office;
 
 public class Boss {
     private static final String employee = "БОСС";

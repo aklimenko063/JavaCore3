@@ -1,9 +1,9 @@
 package org.javaacademy.module1.homework.four.ex4;
 
-import org.javaacademy.homework.four.ex4.exception.AuthorizeException;
-import org.javaacademy.homework.four.ex4.exception.MenuOperationException;
-import org.javaacademy.homework.four.ex4.exception.MessageListException;
-import org.javaacademy.homework.four.ex4.exception.UserNameException;
+import org.javaacademy.module1.homework.four.ex4.exception.AuthorizeException;
+import org.javaacademy.module1.homework.four.ex4.exception.MenuOperationException;
+import org.javaacademy.module1.homework.four.ex4.exception.MessageListException;
+import org.javaacademy.module1.homework.four.ex4.exception.UserNameException;
 
 import java.util.Scanner;
 

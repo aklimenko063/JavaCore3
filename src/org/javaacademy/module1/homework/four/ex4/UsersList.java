@@ -1,6 +1,6 @@
 package org.javaacademy.module1.homework.four.ex4;
 
-import org.javaacademy.homework.four.ex4.exception.UserListException;
+import org.javaacademy.module1.homework.four.ex4.exception.UserListException;
 
 public class UsersList {
     private int freeSlotsUserList;

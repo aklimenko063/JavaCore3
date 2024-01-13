@@ -1,6 +1,6 @@
 package org.javaacademy.module1.homework.four.ex4;
 
-
+import org.javaacademy.module1.homework.four.ex4.exception.MessageListException;
 
 public class Message {
     private final String text;
@@ -15,7 +15,7 @@ public class Message {
         this.text = text;
     }
 
-    public static <MessageListException extends Throwable> void sendMessage(User fromUser, User toUser, String text) {
+    public static void sendMessage(User fromUser, User toUser, String text) {
         Message messageOutgoing = new Message(fromUser, toUser, MessageType.OUTGOING, text);
         Message messageIncoming = new Message(fromUser, toUser, MessageType.INCOMING, text);
 

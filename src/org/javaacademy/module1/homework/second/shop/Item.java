@@ -1,4 +1,4 @@
-package org.javaacademy.homework.second.shop;
+package org.javaacademy.module1.homework.second.shop;
 
 public class Item {
     private String name;

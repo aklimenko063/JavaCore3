@@ -1,8 +1,8 @@
 package org.javaacademy.module1.homework.four.ex4;
 
-import org.javaacademy.homework.four.ex4.exception.MessageListException;
-import org.javaacademy.homework.four.ex4.exception.UserListException;
-import org.javaacademy.homework.four.ex4.exception.UserNameException;
+import org.javaacademy.module1.homework.four.ex4.exception.MessageListException;
+import org.javaacademy.module1.homework.four.ex4.exception.UserListException;
+import org.javaacademy.module1.homework.four.ex4.exception.UserNameException;
 
 public class User {
     private String name;

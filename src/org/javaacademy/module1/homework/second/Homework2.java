@@ -1,4 +1,4 @@
-package org.javaacademy.homework.second;
+package org.javaacademy.module1.homework.second;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -98,7 +98,7 @@ public class Homework2 {
         //Вызвать у каждого работника магазина хвастовство его вещами (достать работника из магазина).
 
         System.out.println("Инициализация ex4");
-        org.javaacademy.homework.second.shop.Runner.main(null);
+        org.javaacademy.module1.homework.second.shop.Runner.main(null);
         System.out.print("\n");
     }
 
@@ -122,7 +122,7 @@ public class Homework2 {
         //Запустить рабочий день в офисе
 
         System.out.println("Инициализация ex5");
-        org.javaacademy.homework.second.office.Runner.main(null);
+        org.javaacademy.module1.homework.second.office.Runner.main(null);
         System.out.print("\n");
     }
 }

@@ -22,7 +22,7 @@ public class Homework4 {
         //В автомойку были отправлены грязные машины мэрии: 4 легковых(длина высота ширина) (5х2х1.8),
         //5 автобусов(12х3х2.3)
         //Посчитать, сколько мэрия заплатит денег за мойку машин.
-        org.javaacademy.homework.four.ex1.Runner.main(null);
+        org.javaacademy.module1.homework.four.ex1.Runner.main(null);
     }
 
     public static void ex2() {
@@ -46,7 +46,7 @@ public class Homework4 {
         // Ошибка: утка ранена
         // самолет летит
         // Ошибка: пассажиров в самолете меньше 0
-        org.javaacademy.homework.four.ex2.Runner.main(null);
+        org.javaacademy.module1.homework.four.ex2.Runner.main(null);
     }
 
     public static void ex3() {
@@ -58,7 +58,7 @@ public class Homework4 {
         //Сделать так, чтобы они все могли быть представлены к единому типу.
         //Создать в этом методе человека, строителя, водителя и птицу. Заставить их издать звуки.
         //Изданные звуки распечатать.
-        org.javaacademy.homework.four.ex3.Runner.main(null);
+        org.javaacademy.module1.homework.four.ex3.Runner.main(null);
     }
 
     public static void ex4() {
@@ -96,6 +96,6 @@ public class Homework4 {
         //"прочитать" - запуск функции "прочитать письмо"
         //"exit" - окончание работы программы
         //Ошибки в результате работы команд должны быть обработаны, и не должны заканчивать работу программы.
-        org.javaacademy.homework.four.ex4.Runner.main(null);
+        org.javaacademy.module1.homework.four.ex4.Runner.main(null);
     }
 }
