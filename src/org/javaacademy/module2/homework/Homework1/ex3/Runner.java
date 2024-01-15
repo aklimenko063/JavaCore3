@@ -20,7 +20,7 @@ public class Runner {
         storage.addItems(List.of(
                 new Item("Шуруповерт"),
                 new Item("Дрель"),
-                new Item("Зубрило, буква Ю")
+                new Item("Зубило")
         ));
 
         storage.printIvenItem();
