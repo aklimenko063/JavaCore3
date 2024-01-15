@@ -23,8 +23,9 @@ public class Runner {
 
         /**Удаляем третий элемент в финальном List*/
         if (finalList.size() > 2) {
-            System.out.println("Сейчас мы удалим третий элемент в финальном List (значение): " + finalList.get(2));
-            finalList.remove(2);
+            int index = 2;
+            System.out.println("Сейчас мы удалим третий элемент в финальном List (значение): " + finalList.get(index));
+            finalList.remove(index);
             System.out.println("Финальный List после удаления: " + finalList);
         }
 

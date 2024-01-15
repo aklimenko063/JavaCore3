@@ -121,7 +121,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.Homework1.ex1.Runner" />
       <module name="JavaCore3" />
@@ -189,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex3.Runner" />
-        <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner" />
       </list>
