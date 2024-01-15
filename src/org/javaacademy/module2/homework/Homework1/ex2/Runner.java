@@ -15,13 +15,13 @@ public class Runner {
         ArrayList<Integer> integersListTwo = new ArrayList<>(List.of(new Integer[]{7, 10}));
         System.out.println("Второй List: " + integersListTwo);
 
-        /**Создаем финальный List и заполняем его данными из integersListOne ArrayList и integersListTwo ArrayList*/
+        /*Создаем финальный List и заполняем его данными из integersListOne ArrayList и integersListTwo ArrayList*/
         ArrayList<Integer> finalList = new ArrayList<>();
         finalList.addAll(integersListOne);
         finalList.addAll(integersListTwo);
         System.out.println("Финальный List: " + finalList);
 
-        /**Удаляем третий элемент в финальном List*/
+        /*Удаляем третий элемент в финальном List*/
         if (finalList.size() > 2) {
             int index = 2;
             System.out.println("Сейчас мы удалим третий элемент в финальном List (значение): " + finalList.get(index));
@@ -29,7 +29,7 @@ public class Runner {
             System.out.println("Финальный List после удаления: " + finalList);
         }
 
-        /**Выводим на экран индекс числа 10*/
+        /*Выводим на экран индекс числа 10*/
         int indexOf10 = finalList.indexOf(10);
         System.out.println("Индекс числа 10: " + indexOf10);
     }
