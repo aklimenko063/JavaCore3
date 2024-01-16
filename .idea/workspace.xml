@@ -75,39 +75,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Homework3.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex1.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex2.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex4.Runner.executor": "Run",
-    "Application.org.example.lessons.exp.Runner.executor": "Debug",
-    "Application.org.example.lessons.lesson9.ex4.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/Metro",
-    "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "settings.editor.splitter.proportion": "0.2823649"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Homework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex4.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.lessons.exp.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.example.lessons.lesson9.ex4.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/JavaProject/Abblazing/Metro&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2823649&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.javaacademy.module2.homework.Homework1.ex1" />
@@ -196,7 +196,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
       </set>
     </attachedChunks>
   </component>
@@ -556,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705324027307</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="15.01.24">
+      <option name="closed" value="true" />
+      <created>1705403017311</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1705403017311</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
