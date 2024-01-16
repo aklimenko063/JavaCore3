@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="15.01.24" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="15.01.24">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +84,8 @@
     "Application.org.example.homework.four.ex4.Runner.executor": "Run",
     "Application.org.example.lessons.exp.Runner.executor": "Debug",
     "Application.org.example.lessons.lesson9.ex4.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor": "Debug",
+    "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Debug",
     "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -97,7 +99,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/JavaCore3",
+    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/Metro",
     "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -115,7 +117,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.Homework1.ex3.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.Homework1.ex1.Runner" />
       <module name="JavaCore3" />
@@ -183,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex3.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex3.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner" />
       </list>
@@ -546,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705323543994</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="15.01.24">
+      <option name="closed" value="true" />
+      <created>1705324027307</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1705324027307</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,6 +628,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex3/Runner.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
