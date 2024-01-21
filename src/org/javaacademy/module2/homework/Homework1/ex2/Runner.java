@@ -10,9 +10,9 @@ import java.util.List;
 Удалить 3 элемент в финальном листе. Вывести на экран индекс числа 10.*/
 public class Runner {
     public static void main(String[] args) {
-        ArrayList<Integer> integersListOne = new ArrayList<>(List.of(new Integer[]{5, 2, 4}));
+        ArrayList<Integer> integersListOne = new ArrayList<>(List.of(5, 2, 4));
         System.out.println("Первый List: " + integersListOne);
-        ArrayList<Integer> integersListTwo = new ArrayList<>(List.of(new Integer[]{7, 10}));
+        ArrayList<Integer> integersListTwo = new ArrayList<>(List.of(7, 10));
         System.out.println("Второй List: " + integersListTwo);
 
         /*Создаем финальный List и заполняем его данными из integersListOne ArrayList и integersListTwo ArrayList*/

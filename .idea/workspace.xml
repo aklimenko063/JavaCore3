@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="18.01.24">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson3/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson3/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson3/ex3/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson3/ex3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson4/ex4/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson4/ex4/Zoo.java" afterDir="false" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="15.01.24">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/LuggageCompartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_34__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/Homework2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,39 +84,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Homework3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.homework.four.ex1.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.homework.four.ex2.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.homework.four.ex4.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.lessons.exp.Runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.example.lessons.lesson9.ex4.Runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/JavaProject/Abblazing/Metro&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2823649&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Homework3.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "Application.org.example.homework.four.ex1.Runner.executor": "Run",
+    "Application.org.example.homework.four.ex2.Runner.executor": "Run",
+    "Application.org.example.homework.four.ex4.Runner.executor": "Run",
+    "Application.org.example.lessons.exp.Runner.executor": "Debug",
+    "Application.org.example.lessons.lesson9.ex4.Runner.executor": "Debug",
+    "Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor": "Debug",
+    "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.homework.Homework2.ex1.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/Metro",
+    "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.splitter.proportion": "0.2823649"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.javaacademy.module2.homework.Homework1.ex1" />
@@ -123,7 +127,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.Homework2.ex1.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.Homework1.ex1.Runner" />
       <module name="JavaCore3" />
@@ -163,6 +167,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.javaacademy.module2.homework.Homework2.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.Homework2.ex1.Runner" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacademy.module2.homework.Homework2.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.javaacademy.module2.lessons.lesson1.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.lessons.lesson1.ex1.Runner" />
       <module name="JavaCore3" />
@@ -176,22 +193,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.javaacademy.module2.lessons.lesson2.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.lessons.lesson2.ex1.Runner" />
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.javaacademy.module2.lessons.lesson2.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner" />
+        <item itemvalue="Application.org.javaacademy.module2.homework.Homework2.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex3.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.Homework1.ex2.Runner" />
         <item itemvalue="Application.Runner" />
@@ -202,7 +206,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
       </set>
     </attachedChunks>
   </component>
@@ -570,23 +574,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705403017311</updated>
     </task>
-    <task id="LOCAL-00045" summary="17.01.24">
-      <option name="closed" value="true" />
-      <created>1705495047737</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1705495047737</updated>
-    </task>
-    <task id="LOCAL-00046" summary="18.01.24">
-      <option name="closed" value="true" />
-      <created>1705568895632</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1705568895632</updated>
-    </task>
-    <option name="localTasksCounter" value="47" />
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,9 +637,7 @@
     <MESSAGE value="07.01.24" />
     <MESSAGE value="13.01.24" />
     <MESSAGE value="15.01.24" />
-    <MESSAGE value="17.01.24" />
-    <MESSAGE value="18.01.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.01.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.01.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

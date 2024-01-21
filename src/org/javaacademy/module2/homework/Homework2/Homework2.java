@@ -19,6 +19,7 @@ public class Homework2 {
 
         //Создать раннер, в нем багажное отделение. Организовать два прилета SU-077, AO-222.
         //Разгрузить багажное отделение. Сначала должны выйти чемоданы su-077, потом ao-222.
+        ex1();
 
         //2. Задание: Вещей много, бакет один
         //Создать класс Item, атрибут - name
@@ -31,6 +32,7 @@ public class Homework2 {
         // item(Банан) - 2
         // item(Апельсин) - 3
         //При получении значения по ключу item(Апельсин) получу корректное значение (3)
+        ex2();
 
         //3. Задание: Сломай это немедленно
         //Создать класс Detail, атрибут - name
@@ -39,5 +41,18 @@ public class Homework2 {
         // Т.е. если положить Hashmap 3 детали в качестве ключа (число значение):
         // detail(Пила) - 1, detail(Молоток) - 2, detail(отвертка) - 3
         //При попытке печати map на экран: там будет последняя вставленная деталь ( detail(отвертка) )
+        ex3();
+    }
+
+    public static void ex1() {
+        org.javaacademy.module2.homework.Homework2.ex1.Runner.main(null);
+    }
+
+    public static void ex2() {
+        org.javaacademy.module2.homework.Homework2.ex2.Runner.main(null);
+    }
+
+    public static void ex3() {
+        org.javaacademy.module2.homework.Homework2.ex3.Runner.main(null);
     }
 }
