@@ -2,12 +2,14 @@ package org.javaacademy.module2.homework.Homework2.ex1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class LuggageCompartment {
-    private LinkedList<Suitcase> suitcases = new LinkedList<>();
-    private ArrayList<Worker> workers;
+    public final static int MAX_COUNT_WORKERS = 3;
+    private Queue<Suitcase> suitcases = new LinkedList<>();
+    private Worker[] workers;
 
-    public LuggageCompartment(ArrayList<Worker> workers) {
+    public LuggageCompartment(Worker[] workers) {
         this.workers = workers;
     }
 
@@ -21,13 +23,10 @@ public class LuggageCompartment {
 
     /*Разгрузить багажное отделение*/
     public void unloadingLuggage() {
-        while (suitcases.size() != 0) {
+        while (!suitcases.isEmpty()) {
             for (Worker worker : workers) {
-                if (suitcases.size() == 0) {
-                    break;
-                }
                 worker.unloadLuggage(suitcases);
-                suitcases.removeFirst();
+//                suitcases.removeFirst();
             }
         }
     }

@@ -1,6 +1,6 @@
 package org.javaacademy.module2.homework.Homework2.ex1;
 
-import java.util.ArrayList;
+import static org.javaacademy.module2.homework.Homework2.ex1.LuggageCompartment.MAX_COUNT_WORKERS;
 
 /**1. Задание: багажное отделение аэропорта
 Создать класс чемодан, атрибут: номер рейса
@@ -21,10 +21,12 @@ import java.util.ArrayList;
 Разгрузить багажное отделение. Сначала должны выйти чемоданы su-077, потом ao-222.*/
 public class Runner {
     public static void main(String[] args) {
-        ArrayList<Worker> workers = new ArrayList<>();
-        workers.add(new Worker("Дима"));
-        workers.add(new Worker("Ваня"));
-        workers.add(new Worker("Петр"));
+
+        Worker[] workers = new Worker[MAX_COUNT_WORKERS];
+        workers[0] = new Worker("Дима");
+        workers[1] = new Worker("Ваня");
+        workers[2] = new Worker("Петр");
+
         LuggageCompartment luggageCompartment = new LuggageCompartment(workers);
         luggageCompartment.planeArrival("SU-077");
         luggageCompartment.planeArrival("AO-222");
