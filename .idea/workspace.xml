@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="19.01.24">
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="22.01.24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/LuggageCompartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/LuggageCompartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -591,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705922708996</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="22.01.24">
+      <option name="closed" value="true" />
+      <created>1705928290154</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705928290154</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -657,7 +662,8 @@
     <MESSAGE value="17.01.24" />
     <MESSAGE value="18.01.24" />
     <MESSAGE value="19.01.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.01.24" />
+    <MESSAGE value="22.01.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.01.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
