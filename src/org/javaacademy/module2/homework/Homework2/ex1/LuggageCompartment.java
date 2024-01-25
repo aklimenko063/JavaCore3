@@ -1,6 +1,5 @@
 package org.javaacademy.module2.homework.Homework2.ex1;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -26,7 +25,6 @@ public class LuggageCompartment {
         while (!suitcases.isEmpty()) {
             for (Worker worker : workers) {
                 worker.unloadLuggage(suitcases);
-//                suitcases.removeFirst();
             }
         }
     }

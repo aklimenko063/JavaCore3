@@ -21,7 +21,6 @@ import static org.javaacademy.module2.homework.Homework2.ex1.LuggageCompartment.
 Разгрузить багажное отделение. Сначала должны выйти чемоданы su-077, потом ao-222.*/
 public class Runner {
     public static void main(String[] args) {
-
         Worker[] workers = new Worker[MAX_COUNT_WORKERS];
         workers[0] = new Worker("Дима");
         workers[1] = new Worker("Ваня");

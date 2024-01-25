@@ -1,11 +1,11 @@
-package org.javaacademy.module2.homework.Homework2.ex2;
+package org.javaacademy.module2.homework.Homework2.ex3;
 
 import java.util.Objects;
 
-public class Item {
+public class Detail {
     private final String name;
 
-    public Item(String name) {
+    public Detail(String name) {
         this.name = name;
     }
 
@@ -13,8 +13,7 @@ public class Item {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Item item = (Item) o;
-        return Objects.equals(name, item.name);
+        return true;
     }
 
     @Override
@@ -24,7 +23,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
+        return "Detail{" +
                 "name='" + name + '\'' +
                 '}';
     }
