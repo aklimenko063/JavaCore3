@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="25.01.24">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/Homework3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/zoo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/zoo/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/zoo/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/zoo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/zoo/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/zoo/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/zoo/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex1/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex1/zoo/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex3/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex3/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework1/ex3/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex3/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/LuggageCompartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex1/LuggageCompartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Suitcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex1/Suitcase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex1/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex1/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex2/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex3/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex3/Detail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/Homework2/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_01_2024_18_06_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_01_2024_18_06__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +89,7 @@
     "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Run",
     "Application.org.javaacademy.module2.homework.Homework2.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.homework.Homework2.ex2.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.homework.homework2.ex2.Runner.executor": "Debug",
     "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson4.ex2.Runner.executor": "Debug",
@@ -139,7 +122,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.homework2.ex2.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.homework2.ex3.Runner" />
       <module name="JavaCore3" />
@@ -207,8 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework2.ex2.Runner" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.lessons.lesson4.ex2.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework2.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework1.ex3.Runner" />
@@ -594,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706196019345</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="25.01.24">
+      <option name="closed" value="true" />
+      <created>1706196601451</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1706196601451</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,6 +662,11 @@
           <url>file://$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework1/ex3/Runner.java</url>
           <line>33</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework2/ex2/Runner.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
