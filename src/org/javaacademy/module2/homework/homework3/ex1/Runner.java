@@ -23,15 +23,9 @@ public class Runner {
     public static void main(String[] args) {
         MyReview rev1 = new MyReview(1, "отличный товар", 200);
         MyReview rev2 = new MyReview(2, "так себе товар", 100);
-        MyReview rev3 = new MyReview(3, "плохой товар", 101);
+        MyReview rev3 = new MyReview(3, "плохой товар", 100);
         MyReview rev4 = new MyReview(4, "плохой товар", 100);
         MyReview rev5 = new MyReview(5, "плохой товар", 102);
-//        MyReview rev6 = new MyReview(6, "плохой товар", 100);
-//        MyReview rev7 = new MyReview(7, "плохой товар", 100);
-//        MyReview rev8 = new MyReview(8, "плохой товар", 100);
-//        MyReview rev9 = new MyReview(9, "плохой товар", 100);
-//        MyReview rev10 = new MyReview(10, "плохой товар", 100);
-//        MyReview rev11 = new MyReview(11, "плохой товар", 100);
 
         Comparator<MyReview> comparator = new Comparator<>() {
             @Override
@@ -47,8 +41,8 @@ public class Runner {
         myReviews.add(rev1);
         myReviews.add(rev3);
         myReviews.add(rev2);
-        myReviews.add(rev5);
-        myReviews.add(rev4);
+//        myReviews.add(rev5);
+//        myReviews.add(rev4);
         System.out.println(myReviews);
     }
 }

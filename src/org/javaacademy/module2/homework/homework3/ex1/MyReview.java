@@ -9,6 +9,18 @@ public class MyReview {
     private int likeCount;
     private final LocalDateTime dateTime;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MyReview myReview)) return false;
+        return id == myReview.id && Objects.equals(getDateTime(), myReview.getDateTime());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, getDateTime());
+    }
+
     public MyReview(int id, String text, int likeCount) {
         this.id = id;
         this.text = text;
