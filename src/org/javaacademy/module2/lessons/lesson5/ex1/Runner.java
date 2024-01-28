@@ -10,6 +10,9 @@ public class Runner {
     public static void main(String[] args) {
         String passportNumber1 = "01A2225";
         String passportNumber2 = "01A2226";
+        System.out.println(passportNumber1.hashCode());
+        System.out.println(passportNumber2.hashCode());
+
 
         HashSet<String> reestr = new HashSet<>();
 
