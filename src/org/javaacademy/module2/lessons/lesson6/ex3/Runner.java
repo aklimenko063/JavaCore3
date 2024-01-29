@@ -14,6 +14,13 @@ public class Runner {
         Factory motoFactory = () -> new Moto();
         Factory truckFactory = () -> new Truck();
 
+        Factory factory = new Factory() {
+            @Override
+            public Machine getMachine() {
+                return null;
+            }
+        };
+
         Machine machine = truckFactory.getMachine();
         Machine machine2 = motoFactory.getMachine();
         Machine machine3 = carFactory.getMachine();

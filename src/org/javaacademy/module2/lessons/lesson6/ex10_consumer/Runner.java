@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex10;
+package org.javaacademy.module2.lessons.lesson6.ex10_consumer;
 
 import java.io.FileWriter;
 import java.io.IOException;
