@@ -9,23 +9,12 @@ public class MyReview {
     private int likeCount;
     private final LocalDateTime dateTime;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof MyReview myReview)) return false;
-        return id == myReview.id && Objects.equals(getDateTime(), myReview.getDateTime());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, getDateTime());
-    }
-
-    public MyReview(int id, String text, int likeCount) {
+    public MyReview(int id, String text, int likeCount) throws InterruptedException {
         this.id = id;
         this.text = text;
         this.likeCount = likeCount;
         this.dateTime = LocalDateTime.now();
+        Thread.sleep(100);
     }
 
     public LocalDateTime getDateTime() {
@@ -36,18 +25,17 @@ public class MyReview {
         return likeCount;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        MyReview myReview = (MyReview) o;
-//        return id == myReview.id;
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(getClass());
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MyReview myReview)) return false;
+        return id == myReview.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
 
     @Override
     public String toString() {
