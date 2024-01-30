@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex6;
+package org.javaacademy.module2.lessons.lesson6.ex6_supplier;
 
 import java.util.function.Supplier;
 

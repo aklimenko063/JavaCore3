@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex5;
+package org.javaacademy.module2.lessons.lesson6.ex5_predicate;
 
 import java.util.function.Predicate;
 

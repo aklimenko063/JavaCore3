@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex9;
+package org.javaacademy.module2.lessons.lesson6.ex9_comparator;
 
 public class Item {
     private int height;

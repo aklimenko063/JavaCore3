@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex8;
+package org.javaacademy.module2.lessons.lesson6.ex8_function;
 
 import java.util.function.Function;
 
