@@ -7,4 +7,11 @@ package org.javaacademy.module2.homework.homework3.ex5;
 Измеритель животных: на вход животное(длина тела, длина хвоста),
 возвращает сумму длин тела и хвоста*/
 public class Runner {
+    public static void main(String[] args) {
+        Scaler<Boat, Integer> boatScaler = Boat::getLength;
+        System.out.println(boatScaler.scale(new Boat(175)));
+
+        Scaler<Animal, Integer> animalScaler = animal -> animal.getBodyLength() + animal.getTailLength();
+        System.out.println(animalScaler.scale(new Animal(35, 15)));
+    }
 }

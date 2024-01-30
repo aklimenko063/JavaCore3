@@ -7,4 +7,19 @@ package org.javaacademy.module2.homework.homework3.ex4;
 атомный реактор: принимает в себя уран, печатает на экран: зеленый свет вокруг!
 костер: принимает в себя дерево, печатает на экран: желто-красный свет вокруг!*/
 public class Runner {
+    public static void main(String[] args) {
+        Burning<String> atomReactor = (item) -> {
+            if (item.equals("Уран")) {
+                System.out.println("Зеленый свет вокруг!");
+            }
+        };
+        atomReactor.burn("Уран");
+
+        Burning<String> bonfire = (item) -> {
+            if (item.equals("Дрова")) {
+                System.out.println("Желто-красный свет вокруг!");
+            }
+        };
+        bonfire.burn("Дрова");
+    }
 }
