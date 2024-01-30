@@ -1,8 +1,6 @@
 package org.javaacademy.module2.homework.homework3.ex1;
 
-import java.time.LocalDateTime;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.TreeSet;
 
 /**Задание №1: сортировка отзывов

@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="22.01.24">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Divination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Burning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Scaler.java" afterDir="false" />
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="30.01.24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Garden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/MyReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/MyReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Burning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Burning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -610,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705928290154</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="30.01.24">
+      <option name="closed" value="true" />
+      <created>1706601986014</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1706601986014</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -652,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="29.11.23" />
     <MESSAGE value="01.12.23" />
     <MESSAGE value="02.12.23" />
@@ -677,7 +677,8 @@
     <MESSAGE value="18.01.24" />
     <MESSAGE value="19.01.24" />
     <MESSAGE value="22.01.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.01.24" />
+    <MESSAGE value="30.01.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.01.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

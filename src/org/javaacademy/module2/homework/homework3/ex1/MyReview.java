@@ -7,7 +7,7 @@ public class MyReview {
     private final int id;
     private String text;
     private int likeCount;
-    private final LocalDateTime dateTime;
+    private LocalDateTime dateTime;
 
     public MyReview(int id, String text, int likeCount) throws InterruptedException {
         this.id = id;
