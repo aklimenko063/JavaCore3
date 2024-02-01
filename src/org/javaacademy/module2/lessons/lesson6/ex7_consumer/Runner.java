@@ -1,4 +1,4 @@
-package org.javaacademy.module2.lessons.lesson6.ex7;
+package org.javaacademy.module2.lessons.lesson6.ex7_consumer;
 
 public class Runner {
     public static void main(String[] args) {
