@@ -9,14 +9,14 @@ package org.javaacademy.module2.homework.homework3.ex4;
 public class Runner {
     public static void main(String[] args) {
         Burning<String> atomReactor = (item) -> {
-            if (item.equals("Уран")) {
+            if ("Уран".equals(item)) {
                 System.out.println("Зеленый свет вокруг!");
             }
         };
         atomReactor.burn("Уран");
 
         Burning<String> bonfire = (item) -> {
-            if (item.equals("Дрова")) {
+            if ("Дрова".equals(item)) {
                 System.out.println("Желто-красный свет вокруг!");
             }
         };

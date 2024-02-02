@@ -8,7 +8,7 @@ package org.javaacademy.module2.homework.homework3.ex5;
 возвращает сумму длин тела и хвоста*/
 public class Runner {
     public static void main(String[] args) {
-        Scaler<Boat, Integer> boatScaler = Boat::getLength;
+        Scaler<Boat, Integer> boatScaler = boat -> boat.getLength();
         System.out.println(boatScaler.scale(new Boat(175)));
 
         Scaler<Animal, Integer> animalScaler = animal -> animal.getBodyLength() + animal.getTailLength();
