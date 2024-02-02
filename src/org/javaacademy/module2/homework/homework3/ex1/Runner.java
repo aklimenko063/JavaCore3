@@ -26,7 +26,7 @@ public class Runner {
         Comparator<MyReview> comparator = (o1, o2) -> {
             int result = Integer.compare(o2.getLikeCount(), o1.getLikeCount());
             if (result == 0) {
-                result = o2.getDateTime().compareTo(o1.getDateTime());
+                return o2.getDateTime().compareTo(o1.getDateTime());
             }
             return result;
         };

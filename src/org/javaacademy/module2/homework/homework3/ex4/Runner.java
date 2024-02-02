@@ -8,18 +8,17 @@ package org.javaacademy.module2.homework.homework3.ex4;
 костер: принимает в себя дерево, печатает на экран: желто-красный свет вокруг!*/
 public class Runner {
     public static void main(String[] args) {
-        Burning<String> atomReactor = (item) -> {
-            if ("Уран".equals(item)) {
-                System.out.println("Зеленый свет вокруг!");
-            }
-        };
-        atomReactor.burn("Уран");
+        Item uran = new Item("Уран");
+        Item firewood = new Item("Дрова");
 
-        Burning<String> bonfire = (item) -> {
-            if ("Дрова".equals(item)) {
+        Burning<Item> burning = (item) -> {
+            if ("Уран".equals(item.getName())) {
+                System.out.println("Зеленый свет вокруг!");
+            } else if ("Дрова".equals(item.getName())) {
                 System.out.println("Желто-красный свет вокруг!");
             }
         };
-        bonfire.burn("Дрова");
+        burning.burn(uran);
+        burning.burn(firewood);
     }
 }

@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="30.01.24">
+    <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="02.02.24">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_18_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_18_47__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/MyReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/MyReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Burning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Burning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Garden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Peach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex2/Peach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Divination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Divination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex4/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex1/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,44 +87,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Homework3.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex1.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex2.Runner.executor": "Run",
-    "Application.org.example.homework.four.ex4.Runner.executor": "Run",
-    "Application.org.example.lessons.exp.Runner.executor": "Debug",
-    "Application.org.example.lessons.lesson9.ex4.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor": "Debug",
-    "Application.org.javaacademy.module2.homework.Homework2.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.homework.homework2.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.homework.homework3.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.homework.homework3.ex4.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.homework.homework3.ex5.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/JavaProject/Abblazing/Metro",
-    "onboarding.tips.debug.path": "C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "copyright",
-    "settings.editor.splitter.proportion": "0.2823649"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Homework3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homework.four.ex4.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.lessons.exp.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.example.lessons.lesson9.ex4.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.homework.Homework1.ex2.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.homework.Homework1.ex3.Runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.javaacademy.module2.homework.Homework2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.homework.homework2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.homework.homework3.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.homework.homework3.ex4.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.homework.homework3.ex5.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/JavaProject/Abblazing/Metro&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/#dev/JavaProject/_JavaCore3/src/org/example/lessons/Lesson1.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2823649&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.javaacademy.module2.homework.Homework1.ex1" />
@@ -124,7 +134,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.homework3.ex1.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.homework3.ex5.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.homework3.ex3.Runner" />
       <module name="JavaCore3" />
@@ -192,10 +202,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex5.Runner" />
-        <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex4.Runner" />
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex1.Runner" />
+        <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex4.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework2.ex1.Runner" />
       </list>
     </recent_temporary>
@@ -653,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="29.11.23" />
     <MESSAGE value="01.12.23" />
     <MESSAGE value="02.12.23" />
     <MESSAGE value="02.12.23 поменял направление у диагонали" />
@@ -678,7 +687,8 @@
     <MESSAGE value="19.01.24" />
     <MESSAGE value="22.01.24" />
     <MESSAGE value="30.01.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.01.24" />
+    <MESSAGE value="02.02.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.02.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
