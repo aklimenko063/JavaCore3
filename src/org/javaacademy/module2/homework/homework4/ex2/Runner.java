@@ -1,5 +1,7 @@
 package org.javaacademy.module2.homework.homework4.ex2;
 
+import java.util.List;
+
 /**Задание №2 - Сколько здесь "о" ?
 Создать набор уникальных слов: "тонь", "тополь", "боль", "рой", "стройка"
 Внутри одного стрима:
@@ -10,6 +12,7 @@ package org.javaacademy.module2.homework.homework4.ex2;
  6*/
 public class Runner {
     public static void main(String[] args) {
-
+        List<String> listString = List.of("тонь", "тополь", "боль", "рой", "стройка");
+        listString.stream().
     }
 }

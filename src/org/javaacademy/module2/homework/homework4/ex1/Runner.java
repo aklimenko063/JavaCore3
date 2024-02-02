@@ -17,13 +17,14 @@ import java.util.stream.Stream;
 "a040ан1799, a041ан799, ... , k048се178, k049се178"*/
 public class Runner {
     public static void main(String[] args) {
-        AtomicInteger counter = new AtomicInteger();
-        List<Car> plateNumbers1 = Stream.generate(() -> new Car("а0"+counter.addAndGet(1)+"ан799"))
+        AtomicInteger counter = new AtomicInteger(000);
+        List<Car> plateNumbers1 = Stream.generate(() -> new Car("а"+counter.addAndGet(1)+"ан799"))
                 .limit(50)
                 .toList();
-        List<Car> plateNumbers2 = Stream.generate(() -> new Car("к0"+counter.addAndGet(1)+"ан799"))
+        List<Car> plateNumbers2 = Stream.generate(() -> new Car("к"+counter.addAndGet(1)+"се799"))
                 .limit(50)
                 .toList();
+        Stream.concat(plateNumbers1.stream(), plateNumbers2.stream()).forEach(e -> System.out.println(e));
 
     }
 }

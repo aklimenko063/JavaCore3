@@ -10,4 +10,11 @@ public class Car {
     public String getLicensePlateNumber() {
         return licensePlateNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "licensePlateNumber='" + licensePlateNumber + '\'' +
+                '}';
+    }
 }
