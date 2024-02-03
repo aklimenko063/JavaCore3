@@ -13,6 +13,6 @@ import java.util.List;
 public class Runner {
     public static void main(String[] args) {
         List<String> listString = List.of("тонь", "тополь", "боль", "рой", "стройка");
-        listString.stream().
+//        listString.stream().
     }
 }
