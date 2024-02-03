@@ -1,6 +1,8 @@
 package org.javaacademy.module2.homework.homework4.ex2;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 /**Задание №2 - Сколько здесь "о" ?
 Создать набор уникальных слов: "тонь", "тополь", "боль", "рой", "стройка"
@@ -13,6 +15,11 @@ import java.util.List;
 public class Runner {
     public static void main(String[] args) {
         List<String> listString = List.of("тонь", "тополь", "боль", "рой", "стройка");
-//        listString.stream().
+        Long numberOfOccurrences = listString.stream()
+                .map(word -> word.chars().filter(symbol -> "о".equals(Character.toString(symbol))).count())
+                .reduce((a, b) -> a + b)
+                .filter(e -> e != 0)
+                .orElseThrow(() -> new RuntimeException("Нет вхождений буквы О в перечне"));
+        System.out.println(numberOfOccurrences);
     }
 }
