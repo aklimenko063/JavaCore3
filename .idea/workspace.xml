@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="03.02.24">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex3/Skyscraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Divination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Divination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Scaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework3/ex5/Scaler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/homework/homework4/ex3/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +96,7 @@
     "Application.org.javaacademy.module2.homework.homework3.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.homework.homework4.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.homework.homework4.ex2.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.homework.homework4.ex3.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson4.ex2.Runner.executor": "Debug",
@@ -125,7 +130,7 @@
       <recent name="org.example.homework.third.ex5_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.homework4.ex1.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.module2.homework.homework4.ex3.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.homework2.ex3.Runner" />
       <module name="JavaCore3" />
@@ -178,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.javaacademy.module2.lessons.lesson5.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.lessons.lesson5.ex1.Runner" />
+    <configuration name="org.javaacademy.module2.homework.homework4.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.module2.homework.homework4.ex3.Runner" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.javaacademy.module2.lessons.lesson5.ex1.*" />
+          <option name="PATTERN" value="org.javaacademy.module2.homework.homework4.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.javaacademy.module2.homework.homework4.ex3.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework4.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework4.ex2.Runner" />
         <item itemvalue="Application.org.javaacademy.module2.homework.homework3.ex1.Runner" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.org.javaacademy.module2.lessons.lesson5.ex1.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -219,14 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700588262379</updated>
-    </task>
-    <task id="LOCAL-00002" summary="29.11.23">
-      <option name="closed" value="true" />
-      <created>1701255695595</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1701255695595</updated>
     </task>
     <task id="LOCAL-00003" summary="01.12.23">
       <option name="closed" value="true" />
@@ -612,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706958272690</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="03.02.24">
+      <option name="closed" value="true" />
+      <created>1706971548911</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1706971548911</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

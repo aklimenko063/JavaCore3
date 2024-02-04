@@ -1,7 +1,7 @@
 package org.javaacademy.module2.homework.homework3.ex5;
 
 /**
- * Аналог Function
+ * Аналог ToIntFunction
  * */
 @FunctionalInterface
 public interface Scaler<T> {

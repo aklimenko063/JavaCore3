@@ -11,8 +11,8 @@ public class Runner {
     public static void main(String[] args) {
         Human seroja = new Human(185.6, 31, "Серожа");
 
-        Divination<Human> chamomile = human -> human.getName().length() % 2 == 0;
-        System.out.println(chamomile.answer(seroja));
+        Divination<String> chamomile = name -> name.length() % 2 == 0;
+        System.out.println(chamomile.answer(seroja.getName()));
 
         Divination<Human> fortuneTeller = (human) -> {
             if ((human.getAge() + human.getHeight()) > 210) {
