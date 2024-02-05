@@ -1,8 +1,6 @@
 package org.javaacademy.module2.homework.homework4.ex2;
 
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Stream;
 
 /**Задание №2 - Сколько здесь "о" ?
 Создать набор уникальных слов: "тонь", "тополь", "боль", "рой", "стройка"

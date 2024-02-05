@@ -2,8 +2,6 @@ package org.javaacademy.module2.homework.homework4.ex3;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**Задание №3 - Небоскребы, небоскребы, а я...
 Дано: Небоскреб - имя небоскреба, его высота в метрах.
