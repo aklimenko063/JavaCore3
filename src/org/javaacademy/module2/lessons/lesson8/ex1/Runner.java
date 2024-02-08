@@ -67,7 +67,7 @@ public class Runner {
         List<Human> group1 = List.of(new Human(1), new Human(2));
         List<Human> group2 = List.of(new Human(3), new Human(4), new Human(4));
         List<List<Human>> groupOfPeople = List.of(group1, group2);
-        groupOfPeople.stream().flatMap(List::stream).forEach(human -> System.out.println(human));
+        groupOfPeople.stream().flatMap(humans1 -> humans1.stream()).forEach(human -> System.out.println(human));
 
 
         //Объединение двух стримов в один
