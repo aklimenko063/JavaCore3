@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e9c546-5ff8-478a-a8b9-8a0b5d4ab3f4" name="Changes" comment="15.02.24">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Runner2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex2/BlackBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex2/FastCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex2/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex4/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex4/MoveAndFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex4/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex5/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex5/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex6/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex6/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex6/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex6/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex6/Toyota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson9/ex2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/module2/lessons/lesson10/ex1/Runner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +116,7 @@
     "Application.org.javaacademy.module2.homework.homework4.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson1.ex1.Runner.executor": "Run",
     "Application.org.javaacademy.module2.lessons.lesson2.ex1.Runner.executor": "Run",
+    "Application.org.javaacademy.module2.lessons.lesson9.ex2.Runner.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -226,14 +240,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700588262379</updated>
-    </task>
-    <task id="LOCAL-00006" summary="02.12.23">
-      <option name="closed" value="true" />
-      <created>1701531262678</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701531262678</updated>
     </task>
     <task id="LOCAL-00007" summary="02.12.23 поменял направление у диагонали">
       <option name="closed" value="true" />
@@ -619,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707998488248</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="15.02.24">
+      <option name="closed" value="true" />
+      <created>1708001197275</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1708001197276</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
